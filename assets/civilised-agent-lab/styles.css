@@ -109,37 +109,34 @@ a {
 .header-shell {
   min-height: var(--nav-height);
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
+  grid-template-columns: max-content minmax(0, 1fr);
   align-items: center;
   gap: 40px;
 }
 
 .wordmark {
-  display: inline-grid;
-  width: max-content;
-  max-width: 380px;
-  grid-template-columns: minmax(0, max-content) 68px;
-  grid-template-rows: auto auto;
-  column-gap: 12px;
+  display: inline-flex;
   align-items: center;
+  gap: 12px;
+  width: max-content;
   color: var(--umber);
   font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 38px;
+  font-size: 34px;
   font-weight: 400;
-  line-height: 35px;
+  line-height: 1;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .wordmark span {
-  grid-column: 1;
+  display: inline-block;
 }
 
 .wordmark-logo {
   display: block;
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  width: 68px;
-  height: 52px;
+  flex: 0 0 auto;
+  width: 60px;
+  height: auto;
 }
 
 .home-page .wordmark-logo {
@@ -1071,7 +1068,7 @@ address a {
   }
 
   .header-shell {
-    grid-template-columns: 220px minmax(0, 1fr);
+    grid-template-columns: max-content minmax(0, 1fr);
     gap: 24px;
   }
 
@@ -1087,17 +1084,14 @@ address a {
   }
 
   .wordmark {
-    font-size: 34px;
-    line-height: 31px;
+    font-size: 28px;
+    line-height: 1;
     width: max-content;
-    max-width: 316px;
-    grid-template-columns: minmax(0, max-content) 56px;
-    column-gap: 12px;
+    gap: 10px;
   }
 
   .wordmark-logo {
     width: 56px;
-    height: 44px;
   }
 
   .hero-shell {
@@ -1152,6 +1146,11 @@ address a {
     font-size: 15px;
     line-height: 17px;
     white-space: normal;
+  }
+
+  .wordmark {
+    font-size: 28px;
+    gap: 10px;
   }
 
   .header-shell {
@@ -1265,6 +1264,15 @@ address a {
 }
 
 @media (max-width: 420px) {
+  .wordmark {
+    font-size: 24px;
+    gap: 8px;
+  }
+
+  .wordmark-logo {
+    width: 42px;
+  }
+
   .site-nav {
     gap: 10px 22px;
   }
