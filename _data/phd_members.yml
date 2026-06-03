@@ -1,0 +1,60 @@
+- name: Haoyuan Li
+  photo: haoyuan.jpg
+  duration: 2026.04 -- Present
+  email: hli962@aucklanduni.ac.nz
+  bio: I received my master's degree in Computer Science from the University of Auckland and my bachelor's degree in Computer Science from Shandong University of Technology. In 2022, I worked as a psychological counselor, which inspired my interest in applying AI technologies to real-world healthcare challenges. My research interests focus on AI for healthcare, particularly leveraging machine learning and deep learning techniques to support mental health and clinical decision-making. I am also interested in the intersection of Web3 and cryptocurrency technologies, exploring how decentralized systems can reshape digital identity and finance. Additionally, I am passionate about the practical applications of LLMs in areas such as medical consultation, intelligent assistants, and knowledge-driven services.
+
+
+- name: Runchen Xu
+  photo: runchen.jpg
+  duration: 2025.11 -- Present
+  bio: I completed my Master's degree in Computer Technology at the University of Electronic Science and Technology of China (UESTC) in 2025, and received my Bachelor’s degree from UESTC in 2022. My research focuses on decentralized artificial intelligence, model markets, and federated learning. I am also broadly interested in mobile computing and wireless communications.
+  email: rxu274@aucklanduni.ac.nz
+  homepage: https://runchen-xu.github.io/
+
+
+- name: Sijing Yin
+  photo: sijing.jpg
+  duration: 2025.07 -- Present
+  bio: I earned my undergraduate degree in Computer Science and Technology from the School of Computer Science and Technology and the School of Software at Southwest University in 2023. Subsequently, I completed my master’s degree in Data Science at the School of Computer Science, University of Auckland, in 2024. My research focuses on AI-driven generation and the application of LLMs in education.
+  email: syin565@aucklanduni.ac.nz
+
+
+- name: Zhongsheng Wang 
+  photo: Zhongsheng.jpg
+  duration: 2025.04 -- Present
+  email: zhongsheng.wang@auckland.ac.nz
+  bio: I received my undergraduate degree in CS from the School of Computer Science and Technology, Southwest University in 2023 and master degree in DS at the School of Computer Science, University of Auckland in 2024. My research focuses on multimodal reasoning, AIGC, and trustworthy AI agents. Also I am currently the maintainer of this website.
+  homepage: https://jkwzs.cn
+
+- name: Zhirui Zeng
+  photo: zhirui.jpg
+  duration: 2024.09 -- Present
+  bio: I earned my Bachelor's and Master's degrees from Chongqing University in 2022 and 2025, respectively. My research focuses on the privacy and security of large language models (LLMs) and retrieval-augmented generation (RAG) systems, exploring techniques to enhance robustness, mitigate vulnerabilities, and ensure trustworthy AI deployment.
+  email: zhirui.zeng@auckland.ac.nz
+
+- name: Pengqian Han
+  photo: pengqianhan.jpg
+  duration: 2021.10 -- Present
+  email: phan635@aucklanduni.ac.nz
+  bio: I got my master's degree in aeronautical engineering from Beihang University in 2018 and got my bachelor's degree from Hebei University of Technology in 2014. I have been an engineer in China Mobile Group Tianjin Company from 2018 to 2021. My main research interests are machine learning, deep learning, and graph-based neural network.
+
+- name: Weidong Li
+  photo: weidong.jpg
+  duration: 2020 -- Present
+  email: wli916@aucklanduni.ac.nz
+  bio: Weidong received a degree of Bachelor of Science (Honours) with First Class Honours in Computer Science from the University of Auckland in 2019. She received a Bachelor of History from Capital Normal University in 2013. Her research interests include social network analysis, multi-agent systems and reinforcement learning.
+
+- name: Xiaoxuan Li
+  photo: xiaoxuan.jpg
+  duration: 2020 -- Present
+  email: xli443@aucklanduni.ac.nz
+  bio: I received my honours (First Class) degree in computer science from The University of Auckland in 2019 and received my bachelor's degree from The Tianjin University of Technology in 2015. My primary scientific interests focus on exploring Natural Language Process (NLP) technology to facilitate Robotic Process Automation (RPA), in particular in discovering business process flow from natural language texts.
+
+
+- name: Lin Ni
+  photo: linni.jpg
+  duration: 2020 -- Present
+  email: lni600@aucklanduni.ac.nz
+  bio: Lin Ni, a practitioner and academic, is keen to turn AI technologies into concrete value. She received a B.E. degree from Northeastern University (China) in 2010, and a Postgraduate Diploma in Computer Science from the University of Auckland in 2017. She lands technologies and provides AI solutions to address the challenges in the industry, dabbled in Car Navigation systems, Recommendation systems, Multi-agent systems, and Natural Language Processing projects. Chatbots attract her focus in recent years, especially chatbots in the health and medical domain.
+
