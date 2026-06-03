@@ -1,7 +1,6 @@
 ---
 layout: civilised
-title: Group Seminars
-description: Group seminars at Civilised Agent Lab for papers, work-in-progress research, design critiques, and collaborative discussion.
+data_key: seminars
 permalink: /seminars/
 ---
 {% assign cal = site.data.civilised_agent_lab %}
@@ -31,16 +30,6 @@ permalink: /seminars/
             </div>
             <h3>{{ item.title }}</h3>
             <p>{{ item.copy }}</p>
-          </article>
-        {% endfor %}
-        {% for item in site.data.seminars limit:6 %}
-          <article data-reveal>
-            <div class="schedule-meta">
-              <span>{{ item.date }}</span>
-              <span>{{ item.speaker }}</span>
-            </div>
-            <h3>{{ item.title }}</h3>
-            {% if item.abstract %}<p>{{ item.abstract }}</p>{% endif %}
           </article>
         {% endfor %}
       </div>

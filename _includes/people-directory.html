@@ -1,0 +1,60 @@
+{% assign people = cal.people %}
+<section class="page-hero" aria-labelledby="people-page-title">
+  <div class="shell split-section">
+    <div class="section-label" data-reveal>{{ people.label }}</div>
+    <div>
+      <h1 id="people-page-title" data-reveal>{{ people.title }}</h1>
+      <p class="large-copy" data-reveal>{{ people.intro }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="detail-section pale people-directory-section" aria-labelledby="team-title">
+  <div class="shell">
+    <div class="people-directory-intro">
+      <div class="section-label" data-reveal>{{ people.section_label }}</div>
+      <h2 id="team-title" data-reveal>{{ people.section_title }}</h2>
+      <p class="large-copy" data-reveal>{{ people.section_copy }}</p>
+    </div>
+
+    {% for section in people.sections %}
+      {% assign members = site.data[section.source] %}
+      {% if members and members.size > 0 %}
+        <div class="team-section" data-reveal>
+          <div class="team-section-header">
+            <h3>{{ section.title }}</h3>
+          </div>
+          {% unless section.featured %}
+            <div class="team-grid{% if section.compact %} team-grid-compact{% endif %}">
+          {% endunless %}
+          {% for member in members %}
+            <article class="team-card{% if section.featured %} team-card-featured{% endif %}">
+              {% if member.homepage %}<a class="team-photo" href="{{ member.homepage }}" aria-label="{{ member.name }} profile">{% else %}<div class="team-photo">{% endif %}
+                <img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" loading="{{ section.image_loading | default: 'lazy' }}" decoding="async">
+              {% if member.homepage %}</a>{% else %}</div>{% endif %}
+              <div class="team-card-body">
+                {% if section.role_field %}
+                  {% assign role_text = member[section.role_field] %}
+                {% else %}
+                  {% assign role_text = section.role %}
+                {% endif %}
+                {% if role_text or member.duration %}
+                  <p class="team-role">{{ role_text }}{% if member.duration %} - {{ member.duration }}{% endif %}</p>
+                {% endif %}
+                <h4>{% if member.homepage %}<a href="{{ member.homepage }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
+                <div class="team-meta">
+                  {% if section.affiliation %}<span>{{ section.affiliation }}</span>{% endif %}
+                  {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
+                </div>
+                {% if member.bio %}<p class="team-bio">{{ member.bio }}</p>{% endif %}
+              </div>
+            </article>
+          {% endfor %}
+          {% unless section.featured %}
+            </div>
+          {% endunless %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

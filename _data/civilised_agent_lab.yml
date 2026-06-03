@@ -25,6 +25,29 @@ nav:
   - title: Contact
     url: /contact/
 
+pages:
+  home:
+    title: Civilised Agent Lab
+    description: Civilised Agent Lab studies AI agents that act with emotional judgement, aesthetic reasoning, cultural context, plural values, and creative co-agency.
+  research:
+    title: Research
+    description: Research directions at Civilised Agent Lab across generative models, multi-agent systems, mechanism design, trustworthy AI, and human-agent interaction.
+  publications:
+    title: Publications
+    description: Publications related to Civilised Agent Lab and Liu AI Lab.
+  seminars:
+    title: Group Seminars
+    description: Group seminars at Civilised Agent Lab for papers, work-in-progress research, design critiques, and collaborative discussion.
+  gallery:
+    title: Gallery
+    description: Gallery of group activities, talks, visits, and research moments connected to Civilised Agent Lab and Liu AI Lab.
+  people:
+    title: People
+    description: People, students, visitors, and alumni connected to Civilised Agent Lab and Liu AI Lab at the University of Auckland.
+  contact:
+    title: Contact
+    description: Contact Civilised Agent Lab at Building 903, 262 Khyber Pass, Newmarket, Auckland.
+
 home:
   hero_title: We build
   hero_word: Civilised Agents
@@ -50,6 +73,8 @@ home:
       - A system that only optimizes may damage what it cannot name. A system that only speaks fluently may miss what matters. A system that only obeys may walk neatly into moral darkness.
       - Civilised AI listens before answering, explains before generating, respects before recommending, and imagines before imitating.
   work_title: Explore our lab work
+  work_more_text: View more
+  work_more_url: /publications/
   work_cards:
     - title: Civilised Agency
       image: work/civilised-agency.png
@@ -146,6 +171,28 @@ people:
   section_label: Team
   section_title: Group members
   section_copy: The group welcomes prospective PhD and Master students interested in agentic AI, generative systems, computational social science, trustworthy machine learning, and human-centred AI systems.
+  affiliation: School of Computer Science
+  sections:
+    - title: Lab Director
+      source: team_members
+      featured: true
+      role_field: info
+      affiliation: School of Computer Science
+      image_loading: eager
+    - title: PhD Students
+      source: phd_members
+      role: PhD Student
+      image_loading: lazy
+    - title: Visitors
+      source: alumni_visitors
+      role: Visitor
+      compact: true
+      image_loading: lazy
+    - title: Alumni
+      source: graduated_phd
+      role: Alumnus
+      compact: true
+      image_loading: lazy
 
 publications:
   label: Publications
@@ -153,6 +200,9 @@ publications:
   intro: A publication record connected to multi-agent systems, machine learning, reasoning, social networks, data markets, and trustworthy AI.
   section_label: Record
   section_title: Publication record
+  selected_title: Selected Publications
+  all_title: All Publications
+  default_link_text: Open publication
 
 seminars:
   label: Group Seminars

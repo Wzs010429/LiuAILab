@@ -14,6 +14,7 @@
   --white: #ffffff;
   --line: #dbe5f0;
   --shell: 1260px;
+  --nav-height: 96px;
 }
 
 * {
@@ -22,6 +23,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-height) + 28px);
 }
 
 body {
@@ -72,14 +74,25 @@ a {
 }
 
 .site-header {
-  background: var(--surface);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow:
+    0 18px 45px rgba(2, 6, 23, 0.14),
+    0 1px 0 rgba(255, 255, 255, 0.74) inset;
+  backdrop-filter: blur(18px);
 }
 
 .home-page .site-header {
-  position: absolute;
-  inset: 0 0 auto;
-  z-index: 5;
-  background: linear-gradient(180deg, rgba(2, 6, 23, 0.58), rgba(2, 6, 23, 0));
+  background:
+    linear-gradient(180deg, rgba(2, 6, 23, 0.82), rgba(15, 23, 42, 0.72)),
+    rgba(2, 6, 23, 0.74);
+  border-bottom-color: rgba(148, 163, 184, 0.22);
+  box-shadow:
+    0 24px 62px rgba(2, 6, 23, 0.34),
+    0 1px 0 rgba(255, 255, 255, 0.08) inset;
 }
 
 .home-page .wordmark,
@@ -94,12 +107,11 @@ a {
 }
 
 .header-shell {
-  min-height: 156px;
+  min-height: var(--nav-height);
   display: grid;
   grid-template-columns: 300px minmax(0, 1fr);
-  align-items: start;
+  align-items: center;
   gap: 40px;
-  padding-top: 66px;
 }
 
 .wordmark {
@@ -112,9 +124,9 @@ a {
   align-items: center;
   color: var(--umber);
   font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 400;
-  line-height: 43px;
+  line-height: 35px;
   text-decoration: none;
 }
 
@@ -209,7 +221,7 @@ a {
   min-height: clamp(700px, 82vh, 860px);
   display: flex;
   align-items: flex-start;
-  padding-top: 300px;
+  padding-top: 230px;
   padding-bottom: 120px;
 }
 
@@ -274,7 +286,7 @@ a {
 .work-section {
   background: var(--field);
   padding-bottom: 96px;
-  scroll-margin-top: 28px;
+  scroll-margin-top: calc(var(--nav-height) + 28px);
 }
 
 .work-section h2,
@@ -432,7 +444,7 @@ a {
 .detail-section {
   padding: 96px 0;
   background: var(--surface);
-  scroll-margin-top: 28px;
+  scroll-margin-top: calc(var(--nav-height) + 28px);
 }
 
 .detail-section.pale,
@@ -443,7 +455,7 @@ a {
 .publications-section {
   padding: 96px 0;
   background: var(--field);
-  scroll-margin-top: 28px;
+  scroll-margin-top: calc(var(--nav-height) + 28px);
 }
 
 .publications-intro {
@@ -943,7 +955,7 @@ a {
 
 .contact-section {
   padding: 96px 0;
-  scroll-margin-top: 28px;
+  scroll-margin-top: calc(var(--nav-height) + 28px);
 }
 
 .contact-shell {
@@ -1075,8 +1087,8 @@ address a {
   }
 
   .wordmark {
-    font-size: 42px;
-    line-height: 38px;
+    font-size: 34px;
+    line-height: 31px;
     width: max-content;
     max-width: 316px;
     grid-template-columns: minmax(0, max-content) 56px;
@@ -1090,7 +1102,7 @@ address a {
 
   .hero-shell {
     min-height: 760px;
-    padding-top: 290px;
+    padding-top: 230px;
   }
 
   .work-grid {
@@ -1116,14 +1128,18 @@ address a {
 }
 
 @media (max-width: 760px) {
+  :root {
+    --nav-height: 156px;
+  }
+
   .shell {
     width: calc(100% - 32px);
   }
 
   .header-shell {
-    min-height: 196px;
-    padding-top: 48px;
-    gap: 24px;
+    min-height: var(--nav-height);
+    padding: 18px 0;
+    gap: 16px;
   }
 
   .site-nav {
@@ -1145,7 +1161,7 @@ address a {
   .hero-shell {
     min-height: 780px;
     align-items: flex-start;
-    padding-top: 320px;
+    padding-top: 220px;
     padding-bottom: 110px;
   }
 
