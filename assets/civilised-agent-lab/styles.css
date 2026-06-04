@@ -946,6 +946,92 @@ a {
   line-height: 27px;
 }
 
+.people-jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.people-jump-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 18px;
+  background: var(--umber);
+  color: var(--white);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 999px;
+  font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  text-decoration: none;
+  transition:
+    background 180ms ease,
+    transform 180ms ease;
+}
+
+.people-jump-links a:hover {
+  background: var(--terracotta);
+  transform: translateY(-1px);
+}
+
+.people-subsection-list {
+  display: grid;
+  gap: 48px;
+}
+
+.people-subsection h4 {
+  margin: 0 0 20px;
+  color: var(--umber);
+  font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.people-simple-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.people-simple-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 18px;
+  background: var(--card-surface);
+  border-left: 3px solid var(--terracotta);
+  box-shadow: 0 1px 0 var(--line) inset;
+}
+
+.people-simple-name {
+  flex: 1 1 auto;
+  color: var(--umber);
+  font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 26px;
+  min-width: 0;
+}
+
+.people-simple-duration {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: right;
+}
+
 .role {
   margin: 0 0 18px;
 }
@@ -1106,6 +1192,7 @@ address a {
   .seminar-list,
   .research-direction-grid,
   .gallery-grid,
+  .people-simple-list,
   .team-grid,
   .team-grid-compact {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1306,6 +1393,14 @@ address a {
   .team-card-featured h4 {
     font-size: 28px;
     line-height: 34px;
+  }
+
+  .people-jump-links a {
+    flex: 1 1 150px;
+  }
+
+  .people-simple-list {
+    grid-template-columns: 1fr;
   }
 }
 

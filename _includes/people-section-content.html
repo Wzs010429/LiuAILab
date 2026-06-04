@@ -1,0 +1,69 @@
+{% assign person_section = include.section %}
+{% assign section_router = person_section.router %}
+{% assign section_source = person_section.source %}
+{% if section_router.source %}
+  {% assign section_source = section_router.source %}
+{% endif %}
+{% assign section_layout = person_section.layout | default: "cards" %}
+{% if section_router.layout %}
+  {% assign section_layout = section_router.layout %}
+{% endif %}
+{% assign members = site.data[section_source] %}
+
+{% if members and members.size > 0 %}
+  {% if section_layout == "list" %}
+    {% assign section_fields = section_router.fields %}
+    {% assign name_field = section_fields.name | default: "name" %}
+    {% assign date_field = section_fields.date | default: "date" %}
+    {% assign start_field = section_fields.start | default: "start" %}
+    {% assign end_field = section_fields.end | default: "end" %}
+    {% assign duration_field = section_fields.duration | default: "duration" %}
+    <ul class="people-simple-list">
+      {% for member in members %}
+        {% assign member_name = member[name_field] | default: member.name %}
+        {% assign member_date = member[date_field] %}
+        {% assign member_start = member[start_field] %}
+        {% assign member_end = member[end_field] %}
+        {% assign member_end_downcase = member_end | downcase %}
+        {% unless member_date %}
+          {% if member_end and member_end_downcase != "present" %}
+            {% assign member_date = member_end %}
+          {% elsif member_start %}
+            {% assign member_date = member_start %}
+          {% else %}
+            {% assign member_date = member[duration_field] %}
+          {% endif %}
+        {% endunless %}
+        <li>
+          <span class="people-simple-name">{{ member_name }}</span>
+          {% if member_date %}<span class="people-simple-duration">{{ member_date }}</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {% unless person_section.featured %}
+      <div class="team-grid{% if person_section.compact %} team-grid-compact{% endif %}">
+    {% endunless %}
+    {% for member in members %}
+      <article class="team-card{% if person_section.featured %} team-card-featured{% endif %}">
+        {% if member.homepage %}<a class="team-photo" href="{{ member.homepage }}" aria-label="{{ member.name }} profile">{% else %}<div class="team-photo">{% endif %}
+          <img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" loading="{{ person_section.image_loading | default: 'lazy' }}" decoding="async">
+        {% if member.homepage %}</a>{% else %}</div>{% endif %}
+        <div class="team-card-body">
+          {% if member.duration %}
+            <p class="team-role">{{ member.duration }}</p>
+          {% endif %}
+          <h4>{% if member.homepage %}<a href="{{ member.homepage }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
+          <div class="team-meta">
+            {% if person_section.affiliation %}<span>{{ person_section.affiliation }}</span>{% endif %}
+            {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
+          </div>
+          {% if member.bio %}<p class="team-bio">{{ member.bio }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+    {% unless person_section.featured %}
+      </div>
+    {% endunless %}
+  {% endif %}
+{% endif %}

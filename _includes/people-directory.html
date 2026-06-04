@@ -18,41 +18,65 @@
     </div>
 
     {% for section in people.sections %}
-      {% assign members = site.data[section.source] %}
-      {% if members and members.size > 0 %}
-        <div class="team-section" data-reveal>
+      {% assign render_section = false %}
+      {% if section.subsections %}
+        {% for subsection in section.subsections %}
+          {% assign subsection_router = subsection.router %}
+          {% assign subsection_source = subsection.source %}
+          {% if subsection_router.source %}
+            {% assign subsection_source = subsection_router.source %}
+          {% endif %}
+          {% assign subsection_members = site.data[subsection_source] %}
+          {% if subsection_members and subsection_members.size > 0 %}
+            {% assign render_section = true %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign section_router = section.router %}
+        {% assign section_source = section.source %}
+        {% if section_router.source %}
+          {% assign section_source = section_router.source %}
+        {% endif %}
+        {% assign members = site.data[section_source] %}
+        {% if members and members.size > 0 %}
+          {% assign render_section = true %}
+        {% endif %}
+      {% endif %}
+
+      {% if render_section %}
+        {% assign section_id = section.anchor | default: section.title | slugify %}
+        <div class="team-section" id="{{ section_id }}" data-reveal>
           <div class="team-section-header">
             <h3>{{ section.title }}</h3>
           </div>
-          {% unless section.featured %}
-            <div class="team-grid{% if section.compact %} team-grid-compact{% endif %}">
-          {% endunless %}
-          {% for member in members %}
-            <article class="team-card{% if section.featured %} team-card-featured{% endif %}">
-              {% if member.homepage %}<a class="team-photo" href="{{ member.homepage }}" aria-label="{{ member.name }} profile">{% else %}<div class="team-photo">{% endif %}
-                <img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" loading="{{ section.image_loading | default: 'lazy' }}" decoding="async">
-              {% if member.homepage %}</a>{% else %}</div>{% endif %}
-              <div class="team-card-body">
-                {% if section.role_field %}
-                  {% assign role_text = member[section.role_field] %}
-                {% else %}
-                  {% assign role_text = section.role %}
+          {% if section.subsections %}
+            <div class="people-subsection-list">
+              {% for subsection in section.subsections %}
+                {% assign subsection_router = subsection.router %}
+                {% assign subsection_source = subsection.source %}
+                {% if subsection_router.source %}
+                  {% assign subsection_source = subsection_router.source %}
                 {% endif %}
-                {% if role_text or member.duration %}
-                  <p class="team-role">{{ role_text }}{% if member.duration %} - {{ member.duration }}{% endif %}</p>
+                {% assign subsection_members = site.data[subsection_source] %}
+                {% if subsection_members and subsection_members.size > 0 %}
+                  {% assign subsection_id = subsection.anchor | default: subsection.title | slugify %}
+                  <div class="people-subsection" id="{{ subsection_id }}">
+                    <h4>{{ subsection.title }}</h4>
+                    {% include people-section-content.html section=subsection %}
+                  </div>
                 {% endif %}
-                <h4>{% if member.homepage %}<a href="{{ member.homepage }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
-                <div class="team-meta">
-                  {% if section.affiliation %}<span>{{ section.affiliation }}</span>{% endif %}
-                  {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
-                </div>
-                {% if member.bio %}<p class="team-bio">{{ member.bio }}</p>{% endif %}
-              </div>
-            </article>
-          {% endfor %}
-          {% unless section.featured %}
+              {% endfor %}
             </div>
-          {% endunless %}
+          {% else %}
+            {% include people-section-content.html section=section %}
+            {% if section.quick_links_after and people.quick_links %}
+              <nav class="people-jump-links" aria-label="People page shortcuts">
+                {% for link in people.quick_links %}
+                  <a href="#{{ link.anchor }}">{{ link.title }}</a>
+                {% endfor %}
+              </nav>
+            {% endif %}
+          {% endif %}
         </div>
       {% endif %}
     {% endfor %}

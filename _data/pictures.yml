@@ -1,47 +1,59 @@
+﻿- title: Maoyuan and Program Chair Louise and Chris's photo at AAMAS 2026.
+  date: May 28, 2026
+  loc: Paphos, Cyprus
+  tag: AAMAS 2026
+  image: MaoyuanAAMAS2026.webp
+
 - title: Zhongsheng and Jiamou at AAAI 2026 Singapore.
-  date: January 25, 2026.
-  loc: Singapore.
+  date: January 25, 2026
+  loc: Singapore
+  tag: AAAI 2026
   image: IMG_20260125_144103.webp
 
 - title: Zhirui Present his poster at ACL 2025.
-  date: July 28, 2025.
-  loc: Vienna, Austria.
-  image: Zhirui-acl-2025.jpg
+  date: July 28, 2025
+  loc: Vienna, Austria
+  tag: ACL 2025
+  image: Zhirui-acl-2025.webp
 
 - title: Zhirui and Jiamou took the photo in front of St. Stephen's Cathedral in Vienna.
-  date: July 27, 2025.
-  loc: Vienna, Austria.
-  image: Zhirui-and-Jiamou-ACL2025.jpg
+  date: July 27, 2025
+  loc: Vienna, Austria
+  tag: ACL 2025
+  image: Zhirui-and-Jiamou-ACL2025.webp
 
 - title: Qianqian and Haoyuan received their doctorate and postgraduate diplomas respectively.
-  date: May 15, 2025.
-  loc: Auckland, NZ.
-  image: 2025Graduation.jpg
+  date: May 15, 2025
+  loc: Auckland, NZ
+  tag: Graduation
+  image: 2025Graduation.webp
 
-
-- title:  Jiamou Liu gives remarks at the opening of AAMAS 2024.
-  date: May 8, 2024.
-  loc: Auckland, NZ.
-  image: aamas2024-opening.jpeg
-
-
+- title: Jiamou Liu gives remarks at the opening of AAMAS 2024.
+  date: May 8, 2024
+  loc: Auckland, NZ
+  tag: AAMAS 2024
+  image: aamas2024-opening.webp
 
 - title: Christmas Party.
-  date: Dec 17, 2020.
-  loc: West District, Auckland.
-  image: party20201217.jpg
+  date: Dec 17, 2020
+  loc: West District, Auckland
+  tag: Group Life
+  image: party20201217.webp
 
 - title: Weekly Meeting (with Christmas Cakes!).
-  date: Dec 4, 2020.
-  loc: UoA.
-  image: meeting20201204.jpeg
+  date: Dec 4, 2020
+  loc: UoA
+  tag: Meeting
+  image: meeting20201204.webp
 
 - title: Academic Year Ending Celebration.
-  date:  Nov 27, 2020.
-  loc: UoA.
-  image: year_ending_2020.jpg
+  date: Nov 27, 2020
+  loc: UoA
+  tag: Celebration
+  image: year_ending_2020.webp
 
 - title: Weekly Meeting.
-  date: Dec 20, 2019.
-  loc: UoA.
-  image: meeting20191220.jpg
+  date: Dec 20, 2019
+  loc: UoA
+  tag: Meeting
+  image: meeting20191220.webp

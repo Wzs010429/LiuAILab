@@ -1,0 +1,64 @@
+{% assign gallery = cal.gallery %}
+{% assign gallery_router = gallery.router %}
+{% assign gallery_items = site.data[gallery_router.source] %}
+{% assign gallery_image_base = gallery_router.image_base | default: cal.site.asset_path %}
+{% assign gallery_fields = gallery_router.fields %}
+{% assign title_field = gallery_fields.title | default: "title" %}
+{% assign tag_field = gallery_fields.tag | default: "tag" %}
+{% assign tags_field = gallery_fields.tags | default: "tags" %}
+{% assign date_field = gallery_fields.date | default: "date" %}
+{% assign location_field = gallery_fields.location | default: "loc" %}
+{% assign meta_field = gallery_fields.meta | default: "meta" %}
+{% assign image_field = gallery_fields.image | default: "image" %}
+{% assign alt_field = gallery_fields.alt | default: "alt" %}
+
+<section class="page-hero" aria-labelledby="gallery-page-title">
+  <div class="shell split-section">
+    <div class="section-label" data-reveal>{{ gallery.label }}</div>
+    <div>
+      <h1 id="gallery-page-title" data-reveal>{{ gallery.title }}</h1>
+      <p class="large-copy" data-reveal>{{ gallery.intro }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="gallery-section" aria-labelledby="gallery-grid-title">
+  <div class="shell">
+    <div class="section-label" data-reveal>{{ gallery.section_label }}</div>
+    <h2 id="gallery-grid-title" data-reveal>{{ gallery.section_title }}</h2>
+    <div class="gallery-grid">
+      {% for item in gallery_items %}
+        {% assign item_title = item[title_field] | default: item.title %}
+        {% assign item_tag = item[tag_field] | default: item.category %}
+        {% assign item_tags = item[tags_field] %}
+        {% assign item_date = item[date_field] | default: item.date %}
+        {% assign item_location = item[location_field] | default: item.loc %}
+        {% assign item_meta_value = item[meta_field] %}
+        {% assign item_image = item[image_field] | default: item.image %}
+        {% assign item_alt = item[alt_field] | default: item_title %}
+        {% assign image_start = item_image | slice: 0 %}
+        {% capture image_src %}{% if item_image contains "://" %}{{ item_image }}{% elsif image_start == "/" %}{{ site.baseurl }}{{ item_image }}{% else %}{{ site.baseurl }}{{ gallery_image_base }}/{{ item_image }}{% endif %}{% endcapture %}
+        {% capture item_meta %}
+          {% if item_meta_value %}
+            {{ item_meta_value }}
+          {% else %}
+            {% if item_date %}{{ item_date }}{% endif %}{% if item_date and item_location %} - {% endif %}{% if item_location %}{{ item_location }}{% endif %}
+          {% endif %}
+        {% endcapture %}
+        {% assign item_meta = item_meta | strip %}
+        <figure class="gallery-card" data-reveal>
+          <img src="{{ image_src | strip }}" alt="{{ item_alt }}" loading="{% if forloop.index <= 4 %}eager{% else %}lazy{% endif %}">
+          <figcaption>
+            {% if item_tag %}
+              <span>{{ item_tag }}</span>
+            {% elsif item_tags %}
+              <span>{{ item_tags | join: " / " }}</span>
+            {% endif %}
+            <strong>{{ item_title }}</strong>
+            {% if item_meta != "" %}<em>{{ item_meta }}</em>{% endif %}
+          </figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>

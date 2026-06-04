@@ -1,3 +1,117 @@
+- title: "Mechanism Design for a Sustainable Federated Session Recommender System"
+  image:
+  description: "ECML PKDD 2026"
+  authors: Runchen Xu, Mengxiao Zhang, Jiamou Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2: 
+
+- title: "S2ED: From Story to Executable Descriptions for Consistency-Aware Story Illustration"
+  image:
+  description: "IEEE ICME 2026"
+  authors: Sijing Yin, Jiamou Liu, Xiao Tang, Yaser Shakib, Qian Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2: 
+
+- title: "R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory"
+  image:
+  description: "Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems"
+  authors: Maoyuan Li, Zhongsheng Wang, Haoyuan Li, Jiamou Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2: 
+ 
+- title: "Situational-Constrained Multi-Agent Coordination through Correlated Equilibria"
+  image:
+  description: "Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems"
+  authors: Libo Zhang, Zhirui Zeng, Yang Chen, Jiamou Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2:
+ 
+- title: "Equity by Design in Task Allocation: Reverse Auctions with Group and Individual Fairness"
+  image:
+  description: "Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems"
+  authors: Yunxiao Zhao, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2:
+
+
+- title: "Enhancing Online RL Fine-Tuning Via Adaptive Q-Function Selection"
+  image:
+  description: "ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  authors: Jiaqi Zhang, Yuheng Xu, Hongfei Li, Yan Gan, Ning Wang, Jiamou Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2:
+
+
+- title: "PrivCQ: Trading multi-dimensional conditional queries under personalised local differential privacy"
+  image:
+  description: "Neural Computing and Applications"
+  authors: Mengxiao Zhang, Weidong Li, Yiping Liu, Bakh Khoussainov, Jiamou Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2:
+
+
+- title: "Combating Knowledge Corruption in Agent Systems: A Byzantine-Tolerant Secure Collaborative RAG Framework"
+  image:
+  description: "Proceedings of the ACM Web Conference 2026 (WWW 2026)"
+  authors: Zhaoqi Wang, Daqing He, Zijian Zhang, Ye Liu, Jiamou Liu, Zhirui Zeng, Zhan Qin, Zhen Li, Xin Li, Hongwei Yao, Jincheng An, Yong Liu, Yi Li, Qi Sun, Xiulei Liu, Liehuang Zhu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2:
+
+
+- title: "Multi-source Multi-level Multi-token Ethereum Dataset and Benchmark Platform"
+  image:
+  description: "Proceedings of the ACM Web Conference 2026 (WWW 2026)"
+  authors: Haoyuan Li, Mengxiao Zhang, Maoyuan Li, Jianzheng Li, Zijian Zhang, Junyi Yang, Shuangyan Deng, Jiamou Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2:
+
+- title: "Narratology meets text-to-image: a survey of consistency in AI generated storybook illustrations"
+  image:
+  description: "Artificial Intelligence Review"
+  authors: Zhedong Lin, Zhongsheng Wang, Qian Liu, Xinyu Zhang, Jiamou Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2:
+
+- title: "CLER: Improving Multimodal Financial Reasoning by Cross-MLLM Error Reflection"
+  image:
+  description: "Proceedings of the AAAI Conference on Artificial Intelligence (2026)"
+  authors: Shuangyan Deng, Zhongsheng Wang, Rui Mao, Ciprian Doru Giurcăneanu, Jiamou Liu.
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2:
+
 - title: "CharCom: Composable Identity Control for Multi-Character Story Illustration."
   image:
   description: "ACM MMAsia 2025"

@@ -60,11 +60,11 @@ home:
     - Civilised Agent Lab studies the human side of agentic AI - emotion, aesthetics, culture, values, and creativity.
     - We study agents that listen before answering, explain before generating, respect before recommending, and act with judgement rather than mere fluency.
   hero_slides:
-    - work/civilised-agency.png
+    - research/overview.webp
     - work/emotional-judgement.png
     - work/aesthetic-reasoning.png
-    - work/cultural-context.png
-    - work/plural-values-restraint.png
+    - research/bedaia.webp
+    - research/main.webp
     - work/creative-coagency.png
   manifesto:
     label: Manifesto
@@ -77,8 +77,8 @@ home:
   work_more_url: /publications/
   work_cards:
     - title: Civilised Agency
-      image: work/civilised-agency.png
-      alt: Civilised AI agent system diagram representing judgement and restraint.
+      image: research/overview.webp
+      alt: Research framework diagram for task understanding, skill-graph planning, and traceable execution.
       href: "#manifesto"
       link_text: View manifesto
       copy: A framework for agents that act as responsible guests in human worlds - attentive, situated, explainable, and capable of restraint.
@@ -95,14 +95,14 @@ home:
       link_text: View evaluation
       copy: Beyond correct outputs, agents need taste, proportion, form, and sensitivity to how generated artifacts feel, signify, and fit.
     - title: Cultural Context
-      image: work/cultural-context.png
-      alt: Context graph connecting norms, histories, and social practices.
+      image: research/bedaia.webp
+      alt: Bedaia system architecture for culture-aware story generation and localization.
       href: /research/#culture-values
       link_text: View context work
       copy: Civilised agents must reason with tacit norms, histories, local practices, and relationships rather than treating every user as context-free.
     - title: Plural Values + Restraint
-      image: work/plural-values-restraint.png
-      alt: Multi-objective value landscape passing through restraint constraints.
+      image: research/main.webp
+      alt: Debate-agent workflow for comparing arguments, histories, and value-sensitive revisions.
       href: /research/#culture-values
       link_text: View value work
       copy: When values conflict, agents should expose tradeoffs, preserve human agency, and avoid collapsing disagreement into a single optimized answer.
@@ -172,27 +172,64 @@ people:
   section_title: Group members
   section_copy: The group welcomes prospective PhD and Master students interested in agentic AI, generative systems, computational social science, trustworthy machine learning, and human-centred AI systems.
   affiliation: School of Computer Science
+  quick_links:
+    - title: PhD Students
+      anchor: phd-students
+    - title: Master Students
+      anchor: master-students
+    - title: Visitors
+      anchor: visitors
+    - title: Alumni
+      anchor: alumni
   sections:
     - title: Lab Director
+      anchor: lab-director
       source: team_members
       featured: true
       role_field: info
       affiliation: School of Computer Science
       image_loading: eager
+      quick_links_after: true
     - title: PhD Students
+      anchor: phd-students
       source: phd_members
       role: PhD Student
       image_loading: lazy
+    - title: Master Students
+      anchor: master-students
+      router:
+        source: students
+        layout: list
+        fields:
+          name: name
+          date: date
+          start: start
+          end: end
+          duration: duration
     - title: Visitors
+      anchor: visitors
       source: alumni_visitors
       role: Visitor
       compact: true
       image_loading: lazy
     - title: Alumni
-      source: graduated_phd
-      role: Alumnus
-      compact: true
-      image_loading: lazy
+      anchor: alumni
+      subsections:
+        - title: PhD Alumni
+          source: graduated_phd
+          role: Alumnus
+          compact: true
+          image_loading: lazy
+        - title: Master Alumni
+          router:
+            source: alumni_msc
+            layout: list
+            fields:
+              name: name
+              date: date
+              start: start
+              end: end
+              duration: duration
 
 publications:
   label: Publications
@@ -235,47 +272,16 @@ gallery:
   intro: Photos from conferences, presentations, ceremonies, meetings, and group activities that show the lab's research community in motion.
   section_label: Lab Pictures
   section_title: Talks, visits, awards, and group moments
-  items:
-    - tag: ACL 2025
-      title: Zhirui presenting his poster in Vienna.
-      meta: July 28, 2025 - Vienna, Austria
-      image: gallery/zhirui-acl-2025.jpg
-      alt: Zhirui presenting a poster at ACL 2025.
-    - tag: ACL 2025
-      title: Zhirui and Jiamou in front of St. Stephen's Cathedral.
-      meta: July 27, 2025 - Vienna, Austria
-      image: gallery/zhirui-jiamou-acl-2025.jpg
-      alt: Zhirui and Jiamou in front of St. Stephen's Cathedral in Vienna.
-    - tag: Graduation
-      title: Qianqian and Haoyuan received their degrees.
-      meta: May 15, 2025 - Auckland, NZ
-      image: gallery/graduation-2025.jpg
-      alt: Qianqian and Haoyuan at the 2025 graduation ceremony.
-    - tag: AAMAS 2024
-      title: Jiamou Liu giving remarks at the opening.
-      meta: May 8, 2024 - Auckland, NZ
-      image: gallery/aamas-2024-opening.jpeg
-      alt: Jiamou Liu giving remarks at the opening of AAMAS 2024.
-    - tag: Group Life
-      title: Christmas party.
-      meta: Dec 17, 2020 - West District, Auckland
-      image: gallery/christmas-party-2020.jpg
-      alt: Lab Christmas party in 2020.
-    - tag: Meeting
-      title: Weekly meeting with Christmas cakes.
-      meta: Dec 4, 2020 - UoA
-      image: gallery/weekly-meeting-2020.jpeg
-      alt: Weekly lab meeting with Christmas cakes in 2020.
-    - tag: Celebration
-      title: Academic year ending celebration.
-      meta: Nov 27, 2020 - UoA
-      image: gallery/academic-year-ending-2020.jpg
-      alt: Academic year ending celebration in 2020.
-    - tag: Meeting
-      title: Weekly meeting.
-      meta: Dec 20, 2019 - UoA
-      image: gallery/weekly-meeting-2019.jpg
-      alt: Weekly lab meeting in 2019.
+  router:
+    source: pictures
+    image_base: /images/picpic/Gallery
+    fields:
+      title: title
+      tag: tag
+      date: date
+      location: loc
+      image: image
+      alt: alt
 
 contact:
   label: Contact

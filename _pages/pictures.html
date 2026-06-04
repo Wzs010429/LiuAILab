@@ -4,32 +4,4 @@ data_key: gallery
 permalink: /pictures/
 ---
 {% assign cal = site.data.civilised_agent_lab %}
-{% assign gallery = cal.gallery %}
-<section class="page-hero" aria-labelledby="gallery-page-title">
-  <div class="shell split-section">
-    <div class="section-label" data-reveal>{{ gallery.label }}</div>
-    <div>
-      <h1 id="gallery-page-title" data-reveal>{{ gallery.title }}</h1>
-      <p class="large-copy" data-reveal>{{ gallery.intro }}</p>
-    </div>
-  </div>
-</section>
-
-<section class="gallery-section" aria-labelledby="gallery-grid-title">
-  <div class="shell">
-    <div class="section-label" data-reveal>{{ gallery.section_label }}</div>
-    <h2 id="gallery-grid-title" data-reveal>{{ gallery.section_title }}</h2>
-    <div class="gallery-grid">
-      {% for item in gallery.items %}
-        <figure class="gallery-card" data-reveal>
-          <img src="{{ site.baseurl }}{{ cal.site.asset_path }}/{{ item.image }}" alt="{{ item.alt }}" loading="{% if forloop.index <= 4 %}eager{% else %}lazy{% endif %}">
-          <figcaption>
-            <span>{{ item.tag }}</span>
-            <strong>{{ item.title }}</strong>
-            <em>{{ item.meta }}</em>
-          </figcaption>
-        </figure>
-      {% endfor %}
-    </div>
-  </div>
-</section>
+{% include gallery-directory.html %}

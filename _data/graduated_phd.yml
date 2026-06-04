@@ -1,23 +1,23 @@
-- name: Libo Zhang
+- name: Libo Zhang (张立博)
   photo: libo.jpg
   duration: 2022.02 -- 2026.03
   email: lzha797@aucklanduni.ac.nz
   homepage: https://a71uuy.github.io/
   bio: I received a degree of Master of Professional Studies with First Class Honours in Data Science, the Graduate Diploma in Science from the University of Auckland in 2021, and the Bachelor degree from the Southwest University in 2020. My personal research interests lie in the reinforcement learning and the multi-agent systems. In detail, I am interested in the challenges in both cooperative and non-cooperative settings in adapting reinforcement learning to multi-agent systems.
 
-- name: Yiping Liu
+- name: Yiping Liu (刘一平)
   photo: yiping.jpg
   duration: 2019. 11 -- 2025.07
   email: yliu823@aucklanduni.ac.nz
   bio: I received my bachelor of mathmatics and master of engineering from Beijing Institute of Technology. My major interest lies in the  network structures and dynamics.  Recently my research focuses on the core/periphery structures. I am also interested in the theoretical analysis of machine learning, graph-based neural network, and so on.
 
 
-- name: Yifei Wang
+- name: Yifei Wang (王逸非)
   photo: yifei.jpg
   duration: 2020 -- 2025.05
   bio: I received my master degree in computer science and technology from the Beihang University in 2020, and bachelor in software engineering from Dalian University of Technology in 2017. My main research interests are machine learning and deep learning, especially Graph-based models and Self-supervised models. Recently, I am focused on constructing hybrid models combining anchor-based graph and neural networks to solve real-world problems with Self-supervised learning.
 
-- name: Qiming Bao
+- name: Qiming Bao (包启明)
   photo: bao.jpg
   duration: 2020.02 -- 2024.12
   bio: Qiming received a Bachelor of Science (Honours) degree with First Class Honours in Computer Science from the University of Auckland in 2019. His research interests lie in the intersection between natural language processing and question answering. Recently his research mainly focuses on machine reasoning. His main research activities involve natural language understanding, natural language inference, and soft reasoning; topics of interest include problem decomposition, knowledge acquisition, explanation, entailment, and generate QA. He is also interested in the graph-based neural network.
@@ -29,14 +29,14 @@
 
 
 
-- name: Qianqian Qi
+- name: Qianqian Qi (齐倩倩)
   photo: qianqian.png
   duration: 2019.9 -- 2024.12
   email: qqi518@aucklanduni.ac.nz
   bio: I received my M.Sc. degree specialised in Communications and Signal Processing from Imperial College London in 2014, and my B.Eng. degree major in Electronic and Information Engineering from Dalian University of Technology in 2013. After that, I worked as a software engineer in Singapore for more than 4 years. I am now doing research in the field of Natural Language Processing, mainly on natural language understanding and generation. 
 
 
-- name: Song Yang
+- name: Song Yang (杨松)
   photo: songyang.jpg
   duration: 2019.12 -- 2024.05
   email: syan382@aucklanduni.ac.nz
@@ -44,8 +44,7 @@
 
 
 
-
-- name: Zeyu Zhang
+- name: Zeyu Zhang (张泽宇)
   photo: zeyu.jpg
   duration: 2018.09 -- 2023.07
   email: alex.zhang@auckland.ac.nz
@@ -58,7 +57,7 @@
   email: jmar914@aucklanduni.ac.nz
   bio: I received both my Honours (First Class) and Bachelor of Science Degrees in Computer Science from The University of Auckland. My research interests lie broadly in Natural Language Processing with my recent research focusing on the intersection between Psychology, Artificial Intelligence and Natural Language Processing.
 
-- name: Mengxiao Zhang
+- name: Mengxiao Zhang (张梦筱)
   photo: mengxiao.jpg
   duration: 2017. 04 -- 2021. 11 
   email: mengxiao.zhang@auckland.ac.nz
@@ -66,7 +65,7 @@
 
 
 
-- name: Yang Chen
+- name: Yang Chen (陈阳)
   photo: yangchen.jpg
   duration: 
   email: 
