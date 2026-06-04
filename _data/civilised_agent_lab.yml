@@ -7,7 +7,7 @@ site:
   asset_path: /assets/civilised-agent-lab
   logo: civilised-agent-lab-logo.svg
   favicon: favicon.svg
-  uoa_logo: https://www.auckland.ac.nz/content/auckland/en/news/2025/04/15/refreshed-university-logo-unifies-brand/_jcr_content/leftpar/imagecomponent/image.img.480.low.jpg/1744667894355.jpg
+  uoa_logo: /assets/civilised-agent-lab/uoa-logo.png
 
 nav:
   - title: Home
@@ -61,11 +61,11 @@ home:
     - We study agents that listen before answering, explain before generating, respect before recommending, and act with judgement rather than mere fluency.
   hero_slides:
     - research/overview.webp
-    - work/emotional-judgement.png
-    - work/aesthetic-reasoning.png
     - research/bedaia.webp
     - research/main.webp
-    - work/creative-coagency.png
+    - research/demo.webp
+    - research/range.webp
+    - research/range2.webp
   manifesto:
     label: Manifesto
     title: Powerful agents should become responsible guests in human worlds.
@@ -83,14 +83,14 @@ home:
       link_text: View manifesto
       copy: A framework for agents that act as responsible guests in human worlds - attentive, situated, explainable, and capable of restraint.
     - title: Emotional Judgement
-      image: work/emotional-judgement.png
-      alt: Agent interface reading affective signals before a decision gate.
+      image: research/demo.webp
+      alt: Deconflict diagram showing overlapping conceptual regions separated into clearer representations.
       href: /research/#directions
       link_text: View research
       copy: Agents should read affective stakes, vulnerability, timing, and uncertainty before deciding when to answer, refuse, delay, or ask.
     - title: Aesthetic Reasoning
-      image: work/aesthetic-reasoning.png
-      alt: Generated media frames evaluated for composition and aesthetic fit.
+      image: research/range.webp
+      alt: Multi-agent style contract workflow for grounding design intent, constructing visual assets, and validating website outputs.
       href: /research/#evaluation
       link_text: View evaluation
       copy: Beyond correct outputs, agents need taste, proportion, form, and sensitivity to how generated artifacts feel, signify, and fit.
@@ -107,8 +107,8 @@ home:
       link_text: View value work
       copy: When values conflict, agents should expose tradeoffs, preserve human agency, and avoid collapsing disagreement into a single optimized answer.
     - title: Creative Co-agency
-      image: work/creative-coagency.png
-      alt: Human and AI agents co-creating image and video frames.
+      image: research/range2.webp
+      alt: Federated recommendation architecture with local heterogeneous knowledge graphs and session-based interaction learning.
       href: /people/
       link_text: Meet collaborators
       copy: We study agents as creative partners that expand imagination while preserving authorship, identity, meaning, and human judgement.
@@ -248,23 +248,6 @@ seminars:
   section_label: Schedule
   section_title: Upcoming and planned sessions
   section_copy: Dates and venues will be confirmed by the lab. The first entries below establish the shape of the series without claiming a finalized public timetable.
-  planned:
-    - date: Date to be announced
-      type: Reading seminar
-      title: Emotional judgement and restraint in agentic AI
-      copy: A discussion on timing, vulnerability, refusal, and the boundary between support and manipulation in conversational agents.
-    - date: Date to be announced
-      type: Work-in-progress
-      title: Evaluating civilised agent behaviour
-      copy: Early protocols for testing disclosure, repair, restraint, cultural context, and human impact in real agent workflows.
-    - date: Date to be announced
-      type: Design critique
-      title: Aesthetic reasoning and creative co-agency
-      copy: A critique session on agents for story, media, design, education, and heritage that preserve meaning while expanding imagination.
-    - date: Date to be announced
-      type: Research discussion
-      title: Culture, plural values, and situated agency
-      copy: A seminar on how agents might reason across tacit norms, histories, disagreement, and relationships where the right action depends on context.
 
 gallery:
   label: Gallery

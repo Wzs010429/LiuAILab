@@ -235,7 +235,7 @@ a {
   font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 48px;
   font-weight: 400;
-  line-height: 44px;
+  line-height: 1.18;
 }
 
 .interactive-header span {
@@ -297,7 +297,7 @@ a {
   font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 48px;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 1.22;
 }
 
 .detail-section h2.manifesto-slogan {
@@ -306,7 +306,7 @@ a {
   font-family: "Caveat", "Comic Sans MS", cursive;
   font-size: 76px;
   font-weight: 700;
-  line-height: 0.95;
+  line-height: 1.08;
   letter-spacing: 0;
 }
 
@@ -370,7 +370,7 @@ a {
 .card-art img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   filter: saturate(0.94) contrast(1.02);
   transition:
     filter 240ms ease,
@@ -479,8 +479,8 @@ a {
 
 .publication-year-block {
   display: grid;
-  grid-template-columns: 140px minmax(0, 1fr);
-  gap: 56px;
+  grid-template-columns: minmax(380px, 440px) minmax(0, 1fr);
+  gap: 42px;
   padding: 54px 0;
   border-top: 1px solid var(--line);
 }
@@ -491,7 +491,8 @@ a {
   font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 42px;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 1.14;
+  overflow-wrap: normal;
 }
 
 .publication-list {
@@ -1208,6 +1209,13 @@ address a {
   }
 }
 
+@media (max-width: 960px) {
+  .publication-year-block {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
 @media (max-width: 760px) {
   :root {
     --nav-height: 156px;
@@ -1265,7 +1273,7 @@ address a {
     min-height: 132px;
     margin-bottom: 34px;
     font-size: 48px;
-    line-height: 44px;
+    line-height: 1.18;
   }
 
   .hero-copy p {
@@ -1279,7 +1287,7 @@ address a {
   .publications-section h2,
   .page-hero h1 {
     font-size: 48px;
-    line-height: 44px;
+    line-height: 1.22;
   }
 
   .work-grid,
@@ -1372,7 +1380,7 @@ address a {
   .page-hero h1 {
     max-width: 100%;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 1.22;
   }
 
   .card-art {

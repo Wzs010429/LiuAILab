@@ -5,6 +5,7 @@ permalink: /seminars/
 ---
 {% assign cal = site.data.civilised_agent_lab %}
 {% assign seminars = cal.seminars %}
+{% assign seminar_items = site.data.seminars %}
 <section class="page-hero" aria-labelledby="seminars-page-title">
   <div class="shell split-section">
     <div class="section-label" data-reveal>{{ seminars.label }}</div>
@@ -22,11 +23,11 @@ permalink: /seminars/
       <h2 id="seminar-schedule-title" data-reveal>{{ seminars.section_title }}</h2>
       <p class="large-copy" data-reveal>{{ seminars.section_copy }}</p>
       <div class="schedule-list">
-        {% for item in seminars.planned %}
+        {% for item in seminar_items %}
           <article data-reveal>
             <div class="schedule-meta">
               <span>{{ item.date }}</span>
-              <span>{{ item.type }}</span>
+              <span>{{ item.tag | default: item.type }}</span>
             </div>
             <h3>{{ item.title }}</h3>
             <p>{{ item.copy }}</p>

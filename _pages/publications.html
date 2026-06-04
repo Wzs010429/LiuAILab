@@ -19,16 +19,16 @@ permalink: /publications/
 <section class="publications-section" aria-labelledby="publications-list-title">
   <div class="shell">
     <div class="publications-intro">
-      <div class="section-label">{{ publications.section_label }}</div>
-      <h2 id="publications-list-title">{{ publications.section_title }}</h2>
+      <div class="section-label" data-reveal>{{ publications.section_label }}</div>
+      <h2 id="publications-list-title" data-reveal>{{ publications.section_title }}</h2>
     </div>
 
     {% if highlighted_pubs.size > 0 %}
       <div class="publication-year-block">
-        <h3>{{ publications.selected_title }}</h3>
+        <h3 data-reveal>{{ publications.selected_title }}</h3>
         <ol class="publication-list">
           {% for pub in highlighted_pubs %}
-            <li>
+            <li data-reveal>
               <strong>{{ pub.title }}</strong>
               {% if pub.description %}<span>{{ pub.description }}</span>{% endif %}
               {% if pub.authors %}<em>{{ pub.authors | markdownify | strip_html }}</em>{% endif %}
@@ -44,10 +44,10 @@ permalink: /publications/
     {% endif %}
 
     <div class="publication-year-block">
-      <h3>{{ publications.all_title }}</h3>
+      <h3 data-reveal>{{ publications.all_title }}</h3>
       <ol class="publication-list">
         {% for pub in site.data.publist %}
-          <li>
+          <li data-reveal>
             <strong>{{ pub.title }}</strong>
             {% if pub.description %}<span>{{ pub.description }}</span>{% endif %}
             {% if pub.authors %}<em>{{ pub.authors | markdownify | strip_html }}</em>{% endif %}

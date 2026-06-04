@@ -1,0 +1,23 @@
+- date: May 22, 2026, 10:00 Beijing Time
+  tag: Paper reading
+  title: "GraphRAG-Induced Dual Knowledge Structure Graphs for Personalized Learning Path Recommendation"
+  copy: >-
+    Speaker: Hongcang Luo, Wuhan University of Communication. Meeting: Tencent Meeting 568 355 1776. This paper presents KnowLP, a personalized learning-path recommendation framework that uses GraphRAG to construct dual knowledge structure graphs. The key idea is to model both prerequisite relations and similarity relations, so the system can recommend not only the next target concept but also related concepts that help students resolve confusion and recover from learning bottlenecks.
+
+- date: May 7, 2026, 10:00 Beijing Time
+  tag: Paper reading
+  title: "SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning"
+  copy: >-
+    Speaker: Pengqian Han, University of Auckland. Meeting: Tencent Meeting 568 355 1776. This paper studies how agents can improve by turning past task trajectories into reusable skills rather than simply storing raw history. SkillRL builds and updates a SkillBank during reinforcement learning, allowing the agent to retrieve task-relevant strategies, reduce redundant exploration, and improve performance on complex environments such as ALFWorld, WebShop, and search-augmented tasks.
+
+- date: April 30, 2026, 10:00 Beijing Time
+  tag: Paper reading
+  title: "Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills"
+  copy: >-
+    Speaker: Zhongsheng Wang, University of Auckland. Meeting: Tencent Meeting 568 355 1776. This paper explores how agents can distill local lessons from successful and failed trajectories into structured, transferable skill documents. Instead of learning experiences sequentially, Trace2Skill analyzes many trajectories in parallel and merges the resulting patches into a coherent skill file, showing that task-specific experience can become a portable form of knowledge across models.
+
+- date: April 23, 2026, 10:00 Beijing Time
+  tag: Paper reading
+  title: "The Potential Existential Threat of Large Language Models to Online Survey Research"
+  copy: >-
+    Speaker: Sijing Yin, University of Auckland. Meeting: Tencent Meeting 568 355 1776. This paper examines how large language models can act as synthetic survey respondents, generating coherent answers, maintaining persona consistency, and passing attention checks at very high rates. The seminar focuses on the methodological risk that plausible survey responses may no longer be reliable evidence of human participation, raising new challenges for online experiments and social-science data collection.
