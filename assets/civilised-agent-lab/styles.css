@@ -68,6 +68,14 @@ a {
   transform: translateY(0);
 }
 
+.page-top-anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+
 .shell {
   width: min(var(--shell), calc(100% - 180px));
   margin: 0 auto;
@@ -478,15 +486,15 @@ a {
 }
 
 .publication-year-block {
-  display: grid;
-  grid-template-columns: minmax(380px, 440px) minmax(0, 1fr);
-  gap: 42px;
+  display: block;
+  max-width: 1080px;
+  margin: 0 auto;
   padding: 54px 0;
   border-top: 1px solid var(--line);
 }
 
 .publication-year-block h3 {
-  margin: 0;
+  margin: 0 0 30px;
   color: var(--terracotta);
   font-family: "Google Sans", "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 42px;
@@ -498,7 +506,8 @@ a {
 .publication-list {
   display: grid;
   gap: 0;
-  margin: 0;
+  width: min(100%, 980px);
+  margin: 0 auto;
   padding: 0;
   counter-reset: publication;
   list-style: none;
@@ -1130,8 +1139,8 @@ address a {
 }
 
 .uoa-logo {
-  width: 220px;
-  max-width: min(72vw, 220px);
+  width: 260px;
+  max-width: min(78vw, 260px);
   height: auto;
   background: var(--umber-deep);
 }
@@ -1297,6 +1306,7 @@ address a {
   .seminar-list,
   .research-direction-grid,
   .gallery-grid,
+  .people-simple-list,
   .team-grid,
   .team-grid-compact,
   .publication-year-block,

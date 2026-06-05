@@ -22,9 +22,10 @@
     <link rel="stylesheet" href="{{ site.baseurl }}{{ cal.site.asset_path }}/styles.css">
   </head>
   <body class="{{ page.body_class }}">
+    <span id="top" class="page-top-anchor" aria-hidden="true"></span>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header" id="top">
+    <header class="site-header">
       <div class="shell header-shell">
         <a class="wordmark" href="{{ site.baseurl }}{{ cal.site.base_path }}/" aria-label="{{ cal.site.name }} home">
           <span>{{ cal.site.name }}</span>
@@ -48,7 +49,7 @@
         <a class="footer-logo-link" href="https://www.auckland.ac.nz/en/science/about-the-faculty/school-of-computer-science.html" aria-label="University of Auckland School of Computer Science">
           <img class="uoa-logo" src="{{ cal.site.uoa_logo }}" alt="Waipapa Taumata Rau University of Auckland" loading="lazy">
         </a>
-        <a href="#top">Back to top</a>
+        <a href="#top" data-back-to-top>Back to top</a>
       </div>
     </footer>
 

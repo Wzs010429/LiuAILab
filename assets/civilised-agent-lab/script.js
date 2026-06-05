@@ -5,6 +5,7 @@
   const navLinks = Array.from(document.querySelectorAll(".site-nav a[href^='#']"));
   const pageNavLinks = Array.from(document.querySelectorAll(".site-nav a[href]:not([href^='#'])"));
   const heroSlides = Array.from(document.querySelectorAll("[data-hero-slide]"));
+  const backToTopLink = document.querySelector("[data-back-to-top]");
 
   const words = heroWord && heroWord.dataset.heroWords
     ? heroWord.dataset.heroWords.split("|").filter(Boolean)
@@ -79,6 +80,19 @@
   }
 
   startHeroCarousel();
+
+  if (backToTopLink) {
+    backToTopLink.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: reduceMotion.matches ? "auto" : "smooth"
+      });
+      if (window.history.replaceState) {
+        window.history.replaceState(null, "", window.location.pathname + window.location.search);
+      }
+    });
+  }
 
   const normalizePath = (path) => {
     const clean = path.replace(/\/+$/, "");

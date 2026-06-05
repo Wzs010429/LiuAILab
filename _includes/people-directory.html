@@ -45,8 +45,8 @@
 
       {% if render_section %}
         {% assign section_id = section.anchor | default: section.title | slugify %}
-        <div class="team-section" id="{{ section_id }}" data-reveal>
-          <div class="team-section-header">
+        <div class="team-section" id="{{ section_id }}">
+          <div class="team-section-header" data-reveal>
             <h3>{{ section.title }}</h3>
           </div>
           {% if section.subsections %}
