@@ -1,827 +1,2579 @@
 - title: "Mechanism Design for a Sustainable Federated Session Recommender System"
   image:
   description: "ECML PKDD 2026"
-  authors: Runchen Xu, Mengxiao Zhang, Jiamou Liu.
+  authors: "Runchen Xu, Mengxiao Zhang, Jiamou Liu."
   link:
-    url: 
-    display: 
+    url:
+    display:
   highlight: 0
-  news2: 
+  news2:
 
-- title: "S2ED: From Story to Executable Descriptions for Consistency-Aware Story Illustration"
-  image:
-  description: "IEEE ICME 2026"
-  authors: Sijing Yin, Jiamou Liu, Xiao Tang, Yaser Shakib, Qian Liu.
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2: 
-
-- title: "R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory"
-  image:
-  description: "Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems"
-  authors: Maoyuan Li, Zhongsheng Wang, Haoyuan Li, Jiamou Liu.
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2: 
- 
 - title: "Situational-Constrained Multi-Agent Coordination through Correlated Equilibria"
   image:
   description: "Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems"
-  authors: Libo Zhang, Zhirui Zeng, Yang Chen, Jiamou Liu.
+  authors: "Libo Zhang, Zhirui Zeng, Yang Chen, Jiamou Liu."
   link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
- 
-- title: "Equity by Design in Task Allocation: Reverse Auctions with Group and Individual Fairness"
-  image:
-  description: "Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems"
-  authors: Yunxiao Zhao, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov.
-  link:
-    url: 
-    display: 
+    url:
+    display:
   highlight: 0
   news2:
 
+- title: "Equity by Design in Task Allocation: Reverse Auctions with Group and Individual Fairness"
+  image:
+  description: "Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems"
+  authors: "Yunxiao Zhao, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov."
+  link:
+    url:
+    display:
+  highlight: 0
+  news2:
 
 - title: "Enhancing Online RL Fine-Tuning Via Adaptive Q-Function Selection"
   image:
   description: "ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
-  authors: Jiaqi Zhang, Yuheng Xu, Hongfei Li, Yan Gan, Ning Wang, Jiamou Liu.
+  authors: "Jiaqi Zhang, Yuheng Xu, Hongfei Li, Yan Gan, Ning Wang, Jiamou Liu."
   link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-
-- title: "PrivCQ: Trading multi-dimensional conditional queries under personalised local differential privacy"
-  image:
-  description: "Neural Computing and Applications"
-  authors: Mengxiao Zhang, Weidong Li, Yiping Liu, Bakh Khoussainov, Jiamou Liu.
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-
-- title: "Combating Knowledge Corruption in Agent Systems: A Byzantine-Tolerant Secure Collaborative RAG Framework"
-  image:
-  description: "Proceedings of the ACM Web Conference 2026 (WWW 2026)"
-  authors: Zhaoqi Wang, Daqing He, Zijian Zhang, Ye Liu, Jiamou Liu, Zhirui Zeng, Zhan Qin, Zhen Li, Xin Li, Hongwei Yao, Jincheng An, Yong Liu, Yi Li, Qi Sun, Xiulei Liu, Liehuang Zhu.
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-
-- title: "Multi-source Multi-level Multi-token Ethereum Dataset and Benchmark Platform"
-  image:
-  description: "Proceedings of the ACM Web Conference 2026 (WWW 2026)"
-  authors: Haoyuan Li, Mengxiao Zhang, Maoyuan Li, Jianzheng Li, Zijian Zhang, Junyi Yang, Shuangyan Deng, Jiamou Liu.
-  link:
-    url: 
-    display: 
+    url:
+    display:
   highlight: 0
   news2:
 
 - title: "Narratology meets text-to-image: a survey of consistency in AI generated storybook illustrations"
   image:
-  description: "Artificial Intelligence Review"
-  authors: Zhedong Lin, Zhongsheng Wang, Qian Liu, Xinyu Zhang, Jiamou Liu.
+  description: "Artif. Intell. Rev. 59(2) (2026)"
+  authors: "Zhedong Lin, Zhongsheng Wang, Qian Liu, Xinyu Zhang, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/s10462-025-11482-6"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Zero-Knowledge Proof-Based Verifiable Decentralized Machine Learning in Communication Network: A Comprehensive Survey"
+  image:
+  description: "IEEE Commun. Surv. Tutorials 28 (2026)"
+  authors: "Zhibo Xing, Zijian Zhang, Ziang Zhang, Zhen Li, Meng Li, Jiamou Liu, Zongyang Zhang, Yi Zhao, Qi Sun, Liehuang Zhu, Giovanni Russello"
+  link:
+    url: "https://doi.org/10.1109/COMST.2025.3561657"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A graph-based file-level anomaly detection framework for system logs"
+  image:
+  description: "Eng. Appl. Artif. Intell. 181 (2026)"
+  authors: "Yanni Tang, Wenjing Xiong, Zhuoxing Zhang, Kaiqi Zhao, Jiamou Liu, Kui Liu, Wu Chen"
+  link:
+    url: "https://doi.org/10.1016/j.engappai.2026.115345"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Graph downsizing: a fast heuristic for querying closely connected subgraphs"
+  image:
+  description: "J. Heuristics 32(1) (2026)"
+  authors: "Yiping Liu, Mengxiao Zhang, Jiamou Liu, Yi Zhou"
+  link:
+    url: "https://doi.org/10.1007/s10732-026-09585-6"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "PrivCQ: Trading multi-dimensional conditional queries under personalised local differential privacy"
+  image:
+  description: "Neural Comput. Appl. 38(10) (2026)"
+  authors: "Mengxiao Zhang, Weidong Li, Yiping Liu, Bakh Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/s00521-026-11988-2"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Cross-Dataset Montage Alignment via Electroencephalogram Source Imaging for Enhanced Motor Decoding"
+  image:
+  description: "IEEE Trans. Cogn. Dev. Syst. 18(3) (2026)"
+  authors: "Tian-Yu Xiang, Wen-Kai Wang, Xiao-Hu Zhou, Hong-Jun Yang, Mei-Jiang Gui, Xiao-Liang Xie, Shiqi Liu, Jiaxing Wang, Jiamou Liu, Zeng-Guang Hou"
+  link:
+    url: "https://doi.org/10.1109/TCDS.2025.3624805"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Governing Emotional Contagion in Online Social Networks"
+  image:
+  description: "IEEE Trans. Control. Netw. Syst. 13(1) (2026)"
+  authors: "Tiantian Wang, Jiamou Liu, Yunmeng Lu, Tiezhong Liu"
+  link:
+    url: "https://doi.org/10.1109/TCNS.2025.3626665"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Hydra: Support Dynamic BFT With Weaker Assumptions and Explicit Request Handling"
+  image:
+  description: "IEEE Trans. Dependable Secur. Comput. 23(3) (2026)"
+  authors: "Xuyang Liu, Zijian Zhang, Zhen Li, Haibo Sun, Meng Li, Jing Sun, Jiamou Liu, Yong Liu, Lei Xu, Jincheng An, Qi Sun, Liang Huang, Mauro Conti, Liehuang Zhu"
+  link:
+    url: "https://doi.org/10.1109/TDSC.2025.3647269"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "COMEDY: Continuous-Time Anomalous Edge Detection in Dynamic Networks"
+  image:
+  description: "IEEE Trans. Netw. Sci. Eng. 13 (2026)"
+  authors: "Jie Liu, Jiamou Liu, Kaiqi Zhao, Wu Chen"
+  link:
+    url: "https://doi.org/10.1109/TNSE.2025.3610091"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "CLER: Improving Multimodal Financial Reasoning by Cross-MLLM Error Reflection"
   image:
-  description: "Proceedings of the AAAI Conference on Artificial Intelligence (2026)"
-  authors: Shuangyan Deng, Zhongsheng Wang, Rui Mao, Ciprian Doru Giurcăneanu, Jiamou Liu.
+  description: "AAAI (2026)"
+  authors: "Shuangyan Deng, Zhongsheng Wang, Rui Mao, Ciprian Doru Giurcaneanu, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1609/aaai.v40i36.40303"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "CharCom: Composable Identity Control for Multi-Character Story Illustration."
+- title: "Combating Knowledge Corruption in Agent Systems: A Byzantine-Tolerant Secure Collaborative RAG Framework"
   image:
-  description: "ACM MMAsia 2025"
-  authors: Zhongsheng Wang, Ming Lin, Zhedong Lin, Yaser Shakib, Qian Liu, **Jiamou Liu**.
+  description: "WWW (2026)"
+  authors: "Zhaoqi Wang, Daqing He, Zijian Zhang, Ye Liu, Jiamou Liu, Zhirui Zeng, Zhan Qin, Zhen Li, Xin Li, Hongwei Yao, Jincheng An, Yong Liu, Yi Li, Qi Sun, Xiulei Liu, Liehuang Zhu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1145/3774904.3792200"
+    display: "DOI"
   highlight: 0
   news2:
 
+- title: "Multi-source Multi-level Multi-token Ethereum Dataset and Benchmark Platform"
+  image:
+  description: "WWW (2026)"
+  authors: "Haoyuan Li, Mengxiao Zhang, Maoyuan Li, Jianzheng Li, Zijian Zhang, Junyi Yang, Shuangyan Deng, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1145/3774904.3792899"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Jailbreaking Large Language Models through Iterative Tool-Disguised Attacks via Reinforcement Learning"
+  image:
+  description: "CoRR abs/2601.05466 (2026)"
+  authors: "Zhaoqi Wang, Zijian Zhang, Daqing He, Pengtao Kou, Xin Li, Jiamou Liu, Jincheng An, Yong Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2601.05466"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature"
+  image:
+  description: "CoRR abs/2603.14430 (2026)"
+  authors: "Yuanchi Ma, Kaize Shi, Hui He, Zhihua Zhang, Zhongxiang Lei, Ziliang Qiu, Renfen Hu, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2603.14430"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "S2ED: From Story to Executable Descriptions for Consistency-Aware Story Illustration"
+  image:
+  description: "CoRR abs/2605.22448 (2026)"
+  authors: "Sijing Yin, Jiamou Liu, Xiao Tang, Yaser Shakib, Qian Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2605.22448"
+    display: "DOI"
+  highlight: 0
+  news2:
 
 - title: "Automatic method for identification of cycles in Covid-19 time-series data"
   image:
   description: "Data Science and Management (2025)"
-  authors: Miaotian Li, Ciprian Doru Giurcăneanu, **Jiamou Liu**
+  authors: "Miaotian Li, Ciprian Doru Giurcăneanu, **Jiamou Liu**"
   link:
-    url: 
-    display: 
+    url:
+    display:
   highlight: 0
   news2:
 
-- title: "Exploring iterative enhancement for improving learnersourced multiple-choice question explanations with large language models"
+- title: "Integrating zero-knowledge proofs into federated learning: a path to on-chain verifiable and privacy-preserving federated learning frameworks"
   image:
-  description: "Proceedings of the AAAI Conference on Artificial Intelligence (2025)"
-  authors: Qiming Bao, Juho Leinonen, Alex Yuxuan Peng, Wanjun Zhong, Gaël Gendron, Timothy Pistotti, Alice Huang, Paul Denny, Michael Witbrock, **Jiamou Liu**
+  description: "Int. J. Web Inf. Syst. 21(3) (2025)"
+  authors: "Chunlei Li, Zhibo Xing, Jiamou Liu, Giovanni Russello, Zhen Li, Yan Wu, Meng Li, Muhammad Rizwan Asghar"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1108/IJWIS-01-2025-0024"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Upper Limb Motor Sequence Analysis: From Isolated to Sequential"
+  image:
+  description: "IEEE Trans. Ind. Informatics 21(7) (2025)"
+  authors: "Tian-Yu Xiang, Xiao-Hu Zhou, Mei-Jiang Gui, Xiao-Liang Xie, Shiqi Liu, Hao Li, De-Xing Huang, Jiaxing Wang, Yongqiang Tang, Jiamou Liu, Zeng-Guang Hou"
+  link:
+    url: "https://doi.org/10.1109/TII.2025.3545108"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "ABSE: Adaptive Baseline Score-Based Election for Leader-Based BFT Systems"
+  image:
+  description: "IEEE Trans. Parallel Distributed Syst. 36(7) (2025)"
+  authors: "Xuyang Liu, Zijian Zhang, Zhen Li, Hao Yin, Meng Li, Jiamou Liu, Mauro Conti, Liehuang Zhu"
+  link:
+    url: "https://doi.org/10.1109/TPDS.2025.3572553"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "Learning Verified Safe Neural Network Controllers for Multi-Agent Path Finding"
   image:
-  description: "Proceedings of the AAAI Conference on Artificial Intelligence (2025)"
-  authors: Mingyue Zhang, Nianyu Li, Yi Chen, Jialong Li, Xiao-Yi Zhang, Hengjun Zhao, **Jiamou Liu**, Wu Chen
+  description: "AAAI (2025)"
+  authors: "Mingyue Zhang, Nianyu Li, Yi Chen, Jialong Li, Xiaoyi Zhang, Hengjun Zhao, Jiamou Liu, Wu Chen"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1609/aaai.v39i22.34504"
+    display: "DOI"
   highlight: 0
   news2:
 
-
-- title: "Zero-Knowledge Proof-Based Verifiable Decentralized Machine Learning in Communication Network: A Comprehensive Survey"
+- title: "Exploring Iterative Enhancement for Improving Learnersourced Multiple-Choice Question Explanations with Large Language Models"
   image:
-  description: "IEEE Communications Surveys & Tutorials (2025)"
-  authors: Zhibo Xing, Zijian Zhang, Ziang Zhang, Zhen Li, Meng Li, **Jiamou Liu**, Zongyang Zhang, Yi Zhao, Qi Sun, Liehuang Zhu, Giovanni Russello
+  description: "AAAI (2025)"
+  authors: "Qiming Bao, Juho Leinonen, Alex Yuxuan Peng, Wanjun Zhong, Gaël Gendron, Timothy Pistotti, Alice Huang, Paul Denny, Michael Witbrock, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1609/aaai.v39i28.35164"
+    display: "DOI"
   highlight: 0
   news2:
 
-
-- title: "Integrating zero-knowledge proofs into federated learning: a path to on-chain verifiable and privacy-preserving federated learning frameworks"
+- title: "S-RAG: A Novel Audit Framework for Detecting Unauthorized Use of Personal Data in RAG Systems"
   image:
-  description: "International Journal of Web Information Systems (2025)"
-  authors: Chunlei Li, Zhibo Xing, **Jiamou Liu**, Giovanni Russello, Zhen Li, Yan Wu, Meng Li, Muhammad Rizwan Asghar
+  description: "ACL (1) (2025)"
+  authors: "Zhirui Zeng, Jiamou Liu, Meng-Fen Chiang, Jialing He, Zijian Zhang"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.18653/v1/2025.acl-long.512"
+    display: "DOI"
   highlight: 0
   news2:
 
-
-- title: "Upper Limb Motor Sequence Analysis: From Isolated to Sequential"
+- title: "Redefining Entity Integration: Theoretical Insights for GNN-Based Recommender Systems"
   image:
-  description: "IEEE Transactions on Industrial Informatics 2025"
-  authors: Tian-Yu Xiang, Xiao-Hu Zhou, Mei-Jiang Gui, Xiao-Liang Xie, Shi-Qi Liu, Hao Li, De-Xing Huang, Jia-Xing Wang, Yong-Qiang Tang, **Jia-Mou Liu**, Zeng-Guang Hou
+  description: "COCOON (2) (2025)"
+  authors: "Yifei Wang, Jiayan Zhu, Yao Xu, Xin Li, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-981-95-0218-9_15"
+    display: "DOI"
   highlight: 0
   news2:
 
+- title: "Boundary Matters: Leveraging Structured Text Plots for Long Text Outline Generation"
+  image:
+  description: "EMNLP (Findings) (2025)"
+  authors: "Yuanchi Ma, Jiamou Liu, Hui He, Libo Zhang, Haoyuan Li, Zhendong Niu"
+  link:
+    url: "https://doi.org/10.18653/v1/2025.findings-emnlp.4"
+    display: "DOI"
+  highlight: 0
+  news2:
 
+- title: "FinMR: A Knowledge-Intensive Multimodal Benchmark for Advanced Financial Reasoning"
+  image:
+  description: "ICAIF (2025)"
+  authors: "Shuangyan Deng, Haizhou Peng, Jiachen Xu, Rui Mao, Ciprian Doru Giurcaneanu, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1145/3768292.3770365"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Data Pricing for Graph Neural Networks without Pre-purchased Inspection"
+  image:
+  description: "AAMAS (2025)"
+  authors: "Yiping Liu, Mengxiao Zhang, Jiamou Liu, Song Yang"
+  link:
+    url: "https://dl.acm.org/doi/10.5555/3709347.3743771"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "SFedRec: A Federated Learning Framework for Dynamic Session-based Recommendation"
+  image:
+  description: "AAMAS (2025)"
+  authors: "Hexiao Zhang, Yanni Tang, Jiamou Liu, Wu Chen"
+  link:
+    url: "https://dl.acm.org/doi/10.5555/3709347.3744025"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "Situational-Constrained Sequential Resources Allocation via Reinforcement Learning"
+  image:
+  description: "IJCAI (2025)"
+  authors: "Libo Zhang, Yang Chen, Toru Takisaka, Kaiqi Zhao, Weidong Li, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.24963/ijcai.2025/1014"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "LLM-based Business Process Models Generation from Textual Descriptions"
+  image:
+  description: "IJCNLP-AACL (Findings) (2025)"
+  authors: "Xiaoxuan Li, Lin Ni, Xin Wang, Tang Yitong, Ruoxuan Li, Jiamou Liu, Zhongsheng Wang"
+  link:
+    url: "https://doi.org/10.18653/v1/2025.findings-ijcnlp.31"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "CharCom: Composable Identity Control for Multi-Character Story Illustration"
+  image:
+  description: "MMAsia (2025)"
+  authors: "Zhongsheng Wang, Ming Lin, Zhedong Lin, Yaser Shakib, Qian Liu, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1145/3743093.3770985"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Multi-source Multi-level Multi-token Ethereum Dataset and Benchmark Platform"
+  image:
+  description: "CoRR abs/2501.11906 (2025)"
+  authors: "Haoyuan Li, Mengxiao Zhang, Maoyuan Li, Jianzheng Li, Junyi Yang, Shuangyan Deng, Zijian Zhang, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2501.11906"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Data Pricing for Graph Neural Networks without Pre-purchased Inspection"
+  image:
+  description: "CoRR abs/2502.08284 (2025)"
+  authors: "Yiping Liu, Mengxiao Zhang, Jiamou Liu, Song Yang"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2502.08284"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Understanding Financial Reasoning in AI: A Multimodal Benchmark and Error Learning Approach"
+  image:
+  description: "CoRR abs/2506.06282 (2025)"
+  authors: "Shuangyan Deng, Haizhou Peng, Jiachen Xu, Chunhou Liu, Ciprian Doru Giurcuaneanu, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2506.06282"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Situational-Constrained Sequential Resources Allocation via Reinforcement Learning"
+  image:
+  description: "CoRR abs/2506.14125 (2025)"
+  authors: "Libo Zhang, Yang Chen, Toru Takisaka, Kaiqi Zhao, Weidong Li, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2506.14125"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Weak Supervision Techniques towards Enhanced ASR Models in Industry-level CRM Systems"
+  image:
+  description: "CoRR abs/2507.16843 (2025)"
+  authors: "Zhongsheng Wang, Sijie Wang, Jia Wang, Yung-I Liang, Yuxi Zhang, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2507.16843"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Inferring Reward Machines and Transition Machines from Partially Observable Markov Decision Processes"
+  image:
+  description: "CoRR abs/2508.01947 (2025)"
+  authors: "Yuly Wu, Jiamou Liu, Libo Zhang"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2508.01947"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Meta-Inverse Reinforcement Learning for Mean Field Games via Probabilistic Context Variables"
+  image:
+  description: "CoRR abs/2509.03845 (2025)"
+  authors: "Yang Chen, Xiao Lin, Bo Yan, Libo Zhang, Jiamou Liu, Neset Özkan Tan, Michael Witbrock"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2509.03845"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm"
+  image:
+  description: "CoRR abs/2509.23135 (2025)"
+  authors: "Yang Chen, Menglin Zou, Jiaqi Zhang, Yitan Zhang, Junyi Yang, Gaël Gendron, Libo Zhang, Jiamou Liu, Michael J. Witbrock"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2509.23135"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Formalization Driven LLM Prompt Jailbreaking via Reinforcement Learning"
+  image:
+  description: "CoRR abs/2509.23558 (2025)"
+  authors: "Zhaoqi Wang, Daqing He, Zijian Zhang, Xin Li, Liehuang Zhu, Meng Li, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2509.23558"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "CharCom: Composable Identity Control for Multi-Character Story Illustration"
+  image:
+  description: "CoRR abs/2510.10135 (2025)"
+  authors: "Zhongsheng Wang, Ming Lin, Zhedong Lin, Yaser Shakib, Qian Liu, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2510.10135"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "TabGRU: An Enhanced Design for Urban Rainfall Intensity Estimation Using Commercial Microwave Links"
+  image:
+  description: "CoRR abs/2512.02465 (2025)"
+  authors: "Xingwang Li, Mengyun Chen, Jiamou Liu, Sijie Wang, Shuanggen Jin, Jafet C. M. Andersson, Jonas Olsson, Remco van de Beek, Hai Victor Habi, Congzheng Han"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2512.02465"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Reputation-Based Leader Election under Partial Synchrony: Towards a Protocol-Independent Abstraction with Enhanced Guarantees"
+  image:
+  description: "CoRR abs/2512.12409 (2025)"
+  authors: "Xuyang Liu, Zijian Zhang, Zhen Li, Jiahang Sun, Jiamou Liu, Peng Jiang"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2512.12409"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory"
+  image:
+  description: "CoRR abs/2512.24684 (2025)"
+  authors: "Maoyuan Li, Zhongsheng Wang, Haoyuan Li, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2512.24684"
+    display: "DOI"
+  highlight: 0
+  news2:
 
 - title: "Agent-based post-earthquake evacuation simulation to enhance early-stage architectural layout and non-structural design"
   image:
   description: "Automation in Construction (2024)"
-  authors: Sajjad Hassanpour, Vicente A González, Yang Zou, **Jiamou Liu**, Guillermo Cabrera-Guerrero
+  authors: "Sajjad Hassanpour, Vicente A González, Yang Zou, **Jiamou Liu**, Guillermo Cabrera-Guerrero"
   link:
-    url: 
-    display: 
+    url:
+    display:
+  highlight: 0
+  news2:
+
+- title: "Safe reinforcement learning task planning with uncertain duration and resource consumption in limited daytime for lunar rovers"
+  image:
+  description: "2024 IAF Space Operations Symposium at the 75th International Astronautical Congress (IAC) 2024"
+  authors: "Siyao Lu, Rui Xu, Ai Gao, Zhaoyu Li, **Jiamou Liu**, Libo Zhang, Zhijun Zhao, Shengying Zhu, Yuqiong Li"
+  link:
+    url:
+    display:
+  highlight: 0
+  news2:
+
+- title: "Multimodal prediction of student performance: A fusion of signed graph neural networks and large language models"
+  image:
+  description: "Pattern Recognit. Lett. 181 (2024)"
+  authors: "Sijie Wang, Lin Ni, Zeyu Zhang, Xiaoxuan Li, Xianda Zheng, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1016/j.patrec.2024.03.007"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A Blockchain-Based Privacy-Preserving Scheme for Sealed-Bid Auction"
+  image:
+  description: "IEEE Trans. Dependable Secur. Comput. 21(5) (2024)"
+  authors: "Zijian Zhang, Xin Lu, Meng Li, Jincheng An, Yang Yu, Hao Yin, Liehuang Zhu, Yong Liu, Jiamou Liu, Bakh Khoussainov"
+  link:
+    url: "https://doi.org/10.1109/TDSC.2024.3353540"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Graph-Based Covert Transaction Detection and Protection in Blockchain"
+  image:
+  description: "IEEE Trans. Inf. Forensics Secur. 19 (2024)"
+  authors: "Zhenyu Guo, Xin Li, Jiamou Liu, Zijian Zhang, Meng Li, Jingjing Hu, Liehuang Zhu"
+  link:
+    url: "https://doi.org/10.1109/TIFS.2023.3347895"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Meta-Inverse Reinforcement Learning for Mean Field Games via Probabilistic Context Variables"
+  image:
+  description: "AAAI (2024)"
+  authors: "Yang Chen, Xiao Lin, Bo Yan, Libo Zhang, Jiamou Liu, Neset Özkan Tan, Michael Witbrock"
+  link:
+    url: "https://doi.org/10.1609/aaai.v38i10.29021"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Enhancing Student Performance Prediction on Learnersourced Questions with SGNN-LLM Synergy"
+  image:
+  description: "AAAI (2024)"
+  authors: "Lin Ni, Sijie Wang, Zeyu Zhang, Xiaoxuan Li, Xianda Zheng, Paul Denny, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1609/aaai.v38i21.30370"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "SKGSum: Structured Knowledge-Guided Document Summarization"
   image:
-  description: "Findings of the Association for Computational Linguistics ACL 2024"
-  authors: Qiqi Wang, Ruofan Wang, Kaiqi Zhao, Robert Amor, Benjamin Liu, **Jiamou Liu**, Xianda Zheng, Zijian Huang
+  description: "ACL (Findings) (2024)"
+  authors: "Qiqi Wang, Ruofan Wang, Kaiqi Zhao, Robert Amor, Benjamin Liu, Jiamou Liu, Xianda Zheng, Zijian Huang"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.18653/v1/2024.findings-acl.110"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Lexicographic ranking supermartingales with lazy lower bounds"
+- title: "Abstract Meaning Representation-Based Logic-Driven Data Augmentation for Logical Reasoning"
   image:
-  description: "International Conference on Computer Aided Verification (2024)"
-  authors: Toru Takisaka, Libo Zhang, Changjiang Wang, **Jiamou Liu**
+  description: "ACL (Findings) (2024)"
+  authors: "Qiming Bao, Alex Yuxuan Peng, Zhenyun Deng, Wanjun Zhong, Gaël Gendron, Timothy Pistotti, Neset Tan, Nathan Young, Yang Chen, Yonghua Zhu, Paul Denny, Michael Witbrock, Jiamou Liu"
   link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "Epic-level text generation with LLM through auto-prompted reinforcement learning"
-  image:
-  description: "2024 International Joint Conference on Neural Networks (IJCNN)"
-  authors: Qianqian Qi, Lin Ni, Zhongsheng Wang, Libo Zhang, **Jiamou Liu**, Michael Witbrock
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "Enhancing Data Augmentation with Knowledge-enriched Data Generation via Dynamic Prompt-tuning Method"
-  image:
-  description: "2024 International Joint Conference on Neural Networks (IJCNN)"
-  authors: Qianqian Qi, Qiming Bao, Alex Yuxuan Peng, **Jiamou Liu**, Michael Witbrock
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "ChatLogic: Integrating Logic Programming with Large Language Models for Multi-Step Reasoning"
-  image:
-  description: "2024 International Joint Conference on Neural Networks (IJCNN)"
-  authors: Zhongsheng Wang, **Jiamou Liu**, Qiming Bao, Hongfei Rong, Jingfeng Zhang
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "Tp-gnn: Continuous dynamic graph neural network for graph classification"
-  image:
-  description: "IEEE 40th International Conference on Data Engineering (ICDE) 2024"
-  authors: Jie Liu, **Jiamou Liu**, Kaiqi Zhao, Yanni Tang, Wu Chen
-  link:
-    url: 
-    display: 
+    url: "https://doi.org/10.18653/v1/2024.findings-acl.353"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "Memory-Based Resilient Control Against Non-cooperation in Multi-agent Flocking"
   image:
-  description: "Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2024"
-  authors: Mingyue Zhang, Nianyu Li, Jialong Li, Jiachun Liao, **Jiamou Liu**
+  description: "AAMAS (2024)"
+  authors: "Mingyue Zhang, Nianyu Li, Jialong Li, Jiachun Liao, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://dl.acm.org/doi/10.5555/3635637.3663072"
+    display: "Link"
   highlight: 0
   news2:
 
-
-- title: "Enhancing student performance prediction on learnersourced questions with sgnn-llm synergy"
+- title: "Behaviour Modelling of Social Animals via Causal Structure Discovery and Graph Neural Networks"
   image:
-  description: "Proceedings of the AAAI Conference on Artificial Intelligence (2024)"
-  authors: Lin Ni, Sijie Wang, Zeyu Zhang, Xiaoxuan Li, Xianda Zheng, Paul Denny, **Jiamou Liu**
+  description: "AAMAS (2024)"
+  authors: "Gaël Gendron, Yang Chen, Mitchell Rogers, Yiping Liu, Mihailo Azhar, Shahrokh Heidari, David Arturo Soriano Valdez, Kobe Knowles, Padriac O'Leary, Simon Eyre, Michael Witbrock, Gillian Dobbie, Jiamou Liu, Patrice Delmas"
   link:
-    url: 
-    display: 
+    url: "https://dl.acm.org/doi/10.5555/3635637.3663132"
+    display: "Link"
   highlight: 0
   news2:
 
-- title: "A blockchain-based privacy-preserving scheme for sealed-bid auction"
+- title: "PrivCQ: Trading Multi-dimensional Conditional Queries Under Personalised Local Differential Privacy"
   image:
-  description: "IEEE Transactions on Dependable and Secure Computing (2024)"
-  authors: Zijian Zhang, Xin Lu, Meng Li, Jincheng An, Yang Yu, Hao Yin, Liehuang Zhu, Yong Liu, **Jiamou Liu**, Bakh Khoussainov
+  description: "AusDM (2024)"
+  authors: "Mengxiao Zhang, Weidong Li, Yiping Liu, Bakh Khoussainov, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-981-95-6888-8_6"
+    display: "DOI"
   highlight: 0
   news2:
 
-
-- title: "Safe reinforcement learning task planning with uncertain duration and resource consumption in limited daytime for lunar rovers"
+- title: "Lexicographic Ranking Supermartingales with Lazy Lower Bounds"
   image:
-  description: "2024 IAF Space Operations Symposium at the 75th International Astronautical Congress (IAC) 2024"
-  authors: Siyao Lu, Rui Xu, Ai Gao, Zhaoyu Li, **Jiamou Liu**, Libo Zhang, Zhijun Zhao, Shengying Zhu, Yuqiong Li
+  description: "CAV (3) (2024)"
+  authors: "Toru Takisaka, Libo Zhang, Changjiang Wang, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-3-031-65633-0_19"
+    display: "DOI"
   highlight: 0
   news2:
 
+- title: "Artifact for \"Lexicoraphic Ranking Supermartingales with Lazy Lower Bounds\" (CAV 2024)"
+  image:
+  description: "Zenodo data artifact (2024)"
+  authors: "Toru Takisaka, Libo Zhang, Changjiang Wang, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.5281/zenodo.10937558"
+    display: "DOI"
+  highlight: 0
+  news2:
 
-- title: "Incentivising Diffusion while Preserving Differential Privacy"
+- title: "Artifact for \"Lexicographic Ranking Supermartingales with Lazy Lower Bounds\" (CAV 2024)"
   image:
-  description: "Uncertainty in Artificial Intelligence (UAI) 2023"
-  authors: Mengxiao Zhang, Fengjuan Jia, **Jiamou Liu**, Bakhadyr Khoussainov
+  description: "Zenodo data artifact (2024)"
+  authors: "Toru Takisaka, Libo Zhang, Changjiang Wang, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.5281/zenodo.11253673"
+    display: "DOI"
   highlight: 0
   news2:
-- title: "Contrastive Learning for Signed Bipartite Graphs"
+
+- title: "Meta-Mechanisms for Combinatorial Auctions over Social Networks"
   image:
-  description: "Special Interest Group on Information Retrieval (SIGIR) 2023"
-  authors: Zeyu Zhang, **Jiamou Liu**, Kaiqi Zhao, Song Yang, Xianda Zheng, Yifei Wang
+  description: "ECAI (2024)"
+  authors: "Yuan Fang, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.3233/FAIA240871"
+    display: "DOI"
   highlight: 0
   news2:
-- title: "Dynamic Prompt-tuning Method for Data Augmentation with Associated Knowledge"
+
+- title: "Balancing Efficiency with Equality: Auction Design with Group Fairness Concerns"
   image:
-  description: "International Conference on Learning Representations (ICLR) 2023, tiny paper"
-  authors: Qianqian Qi, Qiming Bao, Alex Peng, **Jiamou Liu**, Michael Witbrock
+  description: "ECAI (2024)"
+  authors: "Fengjuan Jia, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.3233/FAIA240872"
+    display: "DOI"
   highlight: 0
   news2:
-- title: "RSGNN: A Model-agnostic Approach for Enhancing the Robustness of Signed Graph Neural Networks"
+
+- title: "TP-GNN: Continuous Dynamic Graph Neural Network for Graph Classification"
   image:
-  description: "The Web Conference (WWW) 2023"
-  authors: Zeyu Zhang, **Jiamou Liu**, Xianda Zheng, Yifei Wang, Pengqian Han, Wang Yupan, Kaiqi Zhao, Zijian Zhang
+  description: "ICDE (2024)"
+  authors: "Jie Liu, Jiamou Liu, Kaiqi Zhao, Yanni Tang, Wu Chen"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1109/ICDE60146.2024.00215"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Assessing and Enhancing the Robustness of Large Language Models with Task Structure Variations for Logical Reasoning"
+  image:
+  description: "ICONIP (10) (2024)"
+  authors: "Qiming Bao, Gaël Gendron, Alex Yuxuan Peng, Wanjun Zhong, Neset Tan, Yang Chen, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-981-96-6603-4_22"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Enhancing Data Augmentation with Knowledge-enriched Data Generation via Dynamic Prompt-tuning Method"
+  image:
+  description: "IJCNN (2024)"
+  authors: "Qianqian Qi, Qiming Bao, Alex Yuxuan Peng, Jiamou Liu, Michael Witbrock"
+  link:
+    url: "https://doi.org/10.1109/IJCNN60899.2024.10651072"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Epic-Level Text Generation with LLM through Auto-prompted Reinforcement Learning"
+  image:
+  description: "IJCNN (2024)"
+  authors: "Qianqian Qi, Lin Ni, Zhongsheng Wang, Libo Zhang, Jiamou Liu, Michael Witbrock"
+  link:
+    url: "https://doi.org/10.1109/IJCNN60899.2024.10650358"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "ChatLogic: Integrating Logic Programming with Large Language Models for Multi-Step Reasoning"
+  image:
+  description: "IJCNN (2024)"
+  authors: "Zhongsheng Wang, Jiamou Liu, Qiming Bao, Hongfei Rong, Jingfeng Zhang"
+  link:
+    url: "https://doi.org/10.1109/IJCNN60899.2024.10650138"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Optimizing Resource Distribution Towards Energy Justice in Resilient Smart Grids"
+  image:
+  description: "PKAW (2024)"
+  authors: "Libo Zhang, Yuly Wu, Weidong Li, Song Yang, Yang Chen, Kaiqi Zhao, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-981-96-0026-7_19"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Signed Graph Representation Learning: A Survey"
+  image:
+  description: "CoRR abs/2402.15980 (2024)"
+  authors: "Zeyu Zhang, Peiyao Zhao, Xin Li, Jiamou Liu, Xinrui Zhang, Junjie Huang, Xiaofeng Zhu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2402.15980"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "No Vandalism: Privacy-Preserving and Byzantine-Robust Federated Learning"
+  image:
+  description: "CoRR abs/2406.01080 (2024)"
+  authors: "Zhibo Xing, Zijian Zhang, Ziang Zhang, Jiamou Liu, Liehuang Zhu, Giovanni Russello"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2406.01080"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "ChatLogic: Integrating Logic Programming with Large Language Models for Multi-Step Reasoning"
+  image:
+  description: "CoRR abs/2407.10162 (2024)"
+  authors: "Zhongsheng Wang, Jiamou Liu, Qiming Bao, Hongfei Rong, Jingfeng Zhang"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2407.10162"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Balancing Efficiency with Equality: Auction Design with Group Fairness Concerns"
+  image:
+  description: "CoRR abs/2408.04545 (2024)"
+  authors: "Fengjuan Jia, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2408.04545"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Meta-mechanisms for Combinatorial Auctions over Social Networks"
+  image:
+  description: "CoRR abs/2408.04555 (2024)"
+  authors: "Yuan Fang, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2408.04555"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "CoRA: Optimizing Low-Rank Adaptation with Common Subspace of Large Language Models"
+  image:
+  description: "CoRR abs/2409.02119 (2024)"
+  authors: "Xiaojun Xiao, Sen Shen, Qiming Bao, Hongfei Rong, Kairui Liu, Zhongsheng Wang, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2409.02119"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Incorporation of BIM-based probabilistic non-structural damage assessment into agent-based post-earthquake evacuation simulation"
+  image:
+  description: "Adv. Eng. Informatics 56 (2023)"
+  authors: "Sajjad Hassanpour, Vicente A. González, Yang Zou, Jiamou Liu, Feng Wang, Enrique del Rey Castillo, Guillermo Cabrera-Guerrero"
+  link:
+    url: "https://doi.org/10.1016/j.aei.2023.101958"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "SmartAuction: A blockchain-based secure implementation of private data queries"
+  image:
+  description: "Future Gener. Comput. Syst. 138 (2023)"
+  authors: "Mengxiao Zhang, Jiamou Liu, Kaiyu Feng, Fernando Beltrán, Zijian Zhang"
+  link:
+    url: "https://doi.org/10.1016/j.future.2022.07.027"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "A Survey of Data Pricing for Data Marketplaces"
   image:
-  description: "IEEE Transactions on Big Data"
-  authors: Mengxiao Zhang, **Jiamou Liu**, Fernando Beltran
+  description: "IEEE Trans. Big Data 9(4) (2023)"
+  authors: "Mengxiao Zhang, Fernando Beltrán, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1109/TBDATA.2023.3254152"
+    display: "DOI"
   highlight: 0
   news2:
 
+- title: "InFocus: Amplifying Critical Feature Influence on Non-Intrusive Load Monitoring Through Self-Attention Mechanisms"
+  image:
+  description: "IEEE Trans. Smart Grid 14(5) (2023)"
+  authors: "Jialing He, Zijian Zhang, Liran Ma, Zhouyu Zhang, Meng Li, Bakh Khoussainov, Jiamou Liu, Liehuang Zhu"
+  link:
+    url: "https://doi.org/10.1109/TSG.2023.3236792"
+    display: "DOI"
+  highlight: 0
+  news2:
 
+- title: "MSDC: Exploiting Multi-State Power Consumption in Non-intrusive Load Monitoring Based on a Dual-CNN Model"
+  image:
+  description: "AAAI (2023)"
+  authors: "Jialing He, Jiamou Liu, Zijian Zhang, Yang Chen, Yiwei Liu, Bakh Khoussainov, Liehuang Zhu"
+  link:
+    url: "https://doi.org/10.1609/aaai.v37i4.25636"
+    display: "DOI"
+  highlight: 0
+  news2:
 
+- title: "USER: Unsupervised Structural Entropy-Based Robust Graph Neural Network"
+  image:
+  description: "AAAI (2023)"
+  authors: "Yifei Wang, Yupan Wang, Zeyu Zhang, Song Yang, Kaiqi Zhao, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1609/aaai.v37i8.26219"
+    display: "DOI"
+  highlight: 0
+  news2:
 
+- title: "Centralization Problem for Opinion Convergence in Decentralized Networks"
+  image:
+  description: "ASONAM (2023)"
+  authors: "Yiping Liu, Jiamou Liu, Bakh Khoussainov, Miao Qiao, Bo Yan, Mengxiao Zhang"
+  link:
+    url: "https://doi.org/10.1145/3625007.3627291"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Learning Density-Based Correlated Equilibria for Markov Games"
+  image:
+  description: "AAMAS (2023)"
+  authors: "Libo Zhang, Yang Chen, Toru Takisaka, Bakh Khoussainov, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://dl.acm.org/doi/10.5555/3545946.3598696"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "Adversarial Inverse Reinforcement Learning for Mean Field Games"
+  image:
+  description: "AAMAS (2023)"
+  authors: "Yang Chen, Libo Zhang, Jiamou Liu, Michael Witbrock"
+  link:
+    url: "https://dl.acm.org/doi/10.5555/3545946.3598749"
+    display: "Link"
+  highlight: 0
+  news2:
 
 - title: "Differentially Private Diffusion Auction: The Single-unit Case"
   image:
-  description: "22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023)"
-  authors: Fengjuan Jia, Mengxiao Zhang, **Jiamou Liu** and Bakh Khoussainov 
+  description: "AAMAS (2023)"
+  authors: "Fengjuan Jia, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov"
   link:
-    url: 
-    display: 
+    url: "https://dl.acm.org/doi/10.5555/3545946.3599056"
+    display: "Link"
   highlight: 0
   news2:
 
-- title: "USER: unsupervised robust learning for GNN"
+- title: "Boosting QA Performance Through SA-Net and AA-Net with the Read+Verify Framework"
   image:
-  description: "Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI-23)"
-  authors: Yifei Wang, Yupan Wang, Yang Song, Zeyu Zhang 
+  description: "AusDM (2023)"
+  authors: "Liang Tang, Qianqian Qi, Qinghua Shang, Yuguang Cai, Jiamou Liu, Michael Witbrock, Kaokao Lv"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-981-99-8696-5_6"
+    display: "DOI"
   highlight: 0
   news2:
 
-
-- title: "Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation"
+- title: "Multi-Unit Auction over a Social Network"
   image:
-  description: "Neural-Symbolic Learning and Reasoning (NeSy2022)"
-  authors: Qiming Bao, Alex Yuxuan Peng, Tim Hartill, Neset Tan, Zhenyun Deng, Michael Witbrock, **Jiamou Liu** 
+  description: "ECAI (2023)"
+  authors: "Yuan Fang, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov, Mingyu Xiao"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.3233/FAIA230331"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Text-based Risky Decision-Making Guided by Fuzzy Trace Theory"
+- title: "Integrated Private Data Trading Systems for Data Marketplaces"
   image:
-  description: "Findings of NAACL 2022"
-  authors: Jaron Mar, **Jiamou Liu**
+  description: "ECAI (2023)"
+  authors: "Weidong Li, Mengxiao Zhang, Libo Zhang, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.3233/FAIA230420"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Trajectory Flow Map Enhanced Transformer for Next POI Recommendation"
+- title: "A Dynamic Prompt-tuning Method for Data Augmentation with Associated Knowledge"
   image:
-  description: "SIGIR 2022"
-  authors: Song Yang, **Jiamou Liu**, Kaiqi Zhao
+  description: "Tiny Papers @ ICLR (2023)"
+  authors: "Qianqian Qi, Qiming Bao, Alex Yuxuan Peng, Jiamou Liu, Michael Witbrock"
   link:
-    url: 
-    display: 
+    url: "https://openreview.net/forum?id=hli7A0ioiS_"
+    display: "Link"
   highlight: 0
   news2:
 
+- title: "MaD: A Dataset for Interview-based BPM in Business Process Management"
+  image:
+  description: "IJCNN (2023)"
+  authors: "Xiaoxuan Li, Lin Ni, Renee Li, Jiamou Liu, Mengxiao Zhang"
+  link:
+    url: "https://doi.org/10.1109/IJCNN54540.2023.10191898"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "SupConFL: Fault Localization with Supervised Contrastive Learning"
+  image:
+  description: "Internetware (2023)"
+  authors: "Wei Chen, Wu Chen, Jiamou Liu, Kaiqi Zhao, Mingyue Zhang"
+  link:
+    url: "https://doi.org/10.1145/3609437.3609441"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "STF: Spatial Temporal Fusion for Trajectory Prediction"
+  image:
+  description: "M2VIP (2023)"
+  authors: "Pengqian Han, Partha S. Roop, Jiamou Liu, Tianzhe Bao, Yifei Wang"
+  link:
+    url: "https://doi.org/10.1109/M2VIP58386.2023.10413434"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "LGLog: Semi-supervised Graph Representation Learning for Anomaly Detection based on System Logs"
+  image:
+  description: "QRS (2023)"
+  authors: "Jialong Liu, Yanni Tang, Jiamou Liu, Kaiqi Zhao, Wu Chen"
+  link:
+    url: "https://doi.org/10.1109/QRS60937.2023.00014"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Graph-Based Log Anomaly Detection via Adversarial Training"
+  image:
+  description: "SETTA (2023)"
+  authors: "Zhangyue He, Yanni Tang, Kaiqi Zhao, Jiamou Liu, Wu Chen"
+  link:
+    url: "https://doi.org/10.1007/978-981-99-8664-4_4"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Contrastive Learning for Signed Bipartite Graphs"
+  image:
+  description: "SIGIR (2023)"
+  authors: "Zeyu Zhang, Jiamou Liu, Kaiqi Zhao, Song Yang, Xianda Zheng, Yifei Wang"
+  link:
+    url: "https://doi.org/10.1145/3539618.3591655"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Incentivising Diffusion while Preserving Differential Privacy"
+  image:
+  description: "UAI (2023)"
+  authors: "Fengjuan Jia, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov"
+  link:
+    url: "https://proceedings.mlr.press/v216/jia23a.html"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "RSGNN: A Model-agnostic Approach for Enhancing the Robustness of Signed Graph Neural Networks"
+  image:
+  description: "WWW (2023)"
+  authors: "Zeyu Zhang, Jiamou Liu, Xianda Zheng, Yifei Wang, Pengqian Han, Yupan Wang, Kaiqi Zhao, Zijian Zhang"
+  link:
+    url: "https://doi.org/10.1145/3543507.3583221"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "MSDC: Exploiting Multi-State Power Consumption in Non-intrusive Load Monitoring based on A Dual-CNN Model"
+  image:
+  description: "CoRR abs/2302.05565 (2023)"
+  authors: "Jialing He, Jiamou Liu, Zijian Zhang, Yang Chen, Yiwei Liu, Bakh Khoussainov, Liehuang Zhu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2302.05565"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "USER: Unsupervised Structural Entropy-based Robust Graph Neural Network"
+  image:
+  description: "CoRR abs/2302.05889 (2023)"
+  authors: "Yifei Wang, Yupan Wang, Zeyu Zhang, Song Yang, Kaiqi Zhao, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2302.05889"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Differentially Private Diffusion Auction: The Single-unit Case"
+  image:
+  description: "CoRR abs/2302.07072 (2023)"
+  authors: "Fengjuan Jia, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2302.07072"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Learning Density-Based Correlated Equilibria for Markov Games"
+  image:
+  description: "CoRR abs/2302.08001 (2023)"
+  authors: "Libo Zhang, Yang Chen, Toru Takisaka, Bakh Khoussainov, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2302.08001"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Multi-unit Auction over a Social Network"
+  image:
+  description: "CoRR abs/2302.08924 (2023)"
+  authors: "Yuan Fang, Mengxiao Zhang, Jiamou Liu, Bakh Khoussainov, Mingyu Xiao"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2302.08924"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "GETNext: Trajectory Flow Map Enhanced Transformer for Next POI Recommendation"
+  image:
+  description: "CoRR abs/2303.04741 (2023)"
+  authors: "Song Yang, Jiamou Liu, Kaiqi Zhao"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2303.04741"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A Survey of Data Pricing for Data Marketplaces"
+  image:
+  description: "CoRR abs/2303.04810 (2023)"
+  authors: "Mengxiao Zhang, Fernando Beltrán, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2303.04810"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Zero-Knowledge Proof-based Practical Federated Learning on Blockchain"
+  image:
+  description: "CoRR abs/2304.05590 (2023)"
+  authors: "Zhibo Xing, Zijian Zhang, Meng Li, Jiamou Liu, Liehuang Zhu, Giovanni Russello, Muhammad Rizwan Asghar"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2304.05590"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Fairness in Ranking Supermartingales"
+  image:
+  description: "CoRR abs/2304.11363 (2023)"
+  authors: "Toru Takisaka, Libo Zhang, Changjiang Wang, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2304.11363"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Contrastive Learning with Logic-driven Data Augmentation for Logical Reasoning over Text"
+  image:
+  description: "CoRR abs/2305.12599 (2023)"
+  authors: "Qiming Bao, Alex Yuxuan Peng, Zhenyun Deng, Wanjun Zhong, Neset Tan, Nathan Young, Yang Chen, Yonghua Zhu, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2305.12599"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Integrated Private Data Trading Systems for Data Marketplaces"
+  image:
+  description: "CoRR abs/2307.16317 (2023)"
+  authors: "Weidong Li, Mengxiao Zhang, Libo Zhang, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2307.16317"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Exploring Self-Reinforcement for Improving Learnersourced Multiple-Choice Question Explanations with Large Language Models"
+  image:
+  description: "CoRR abs/2309.10444 (2023)"
+  authors: "Qiming Bao, Juho Leinonen, Alex Yuxuan Peng, Wanjun Zhong, Tim Pistotti, Alice Huang, Paul Denny, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2309.10444"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Enhancing Student Performance Prediction on Learnersourced Questions with SGNN-LLM Synergy"
+  image:
+  description: "CoRR abs/2309.13500 (2023)"
+  authors: "Lin Ni, Sijie Wang, Zeyu Zhang, Xiaoxuan Li, Xianda Zheng, Paul Denny, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2309.13500"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A Systematic Evaluation of Large Language Models on Out-of-Distribution Logical Reasoning Tasks"
+  image:
+  description: "CoRR abs/2310.09430 (2023)"
+  authors: "Qiming Bao, Gaël Gendron, Alex Yuxuan Peng, Wanjun Zhong, Neset Tan, Yang Chen, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2310.09430"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "SGA: A Graph Augmentation Method for Signed Graph Neural Networks"
+  image:
+  description: "CoRR abs/2310.09705 (2023)"
+  authors: "Zeyu Zhang, Shuyan Wan, Sijie Wang, Xianda Zheng, Xinrui Zhang, Kaiqi Zhao, Jiamou Liu, Dong Hao"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2310.09705"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "CSG: Curriculum Representation Learning for Signed Graph"
+  image:
+  description: "CoRR abs/2310.11083 (2023)"
+  authors: "Zeyu Zhang, Jiamou Liu, Kaiqi Zhao, Yifei Wang, Pengqian Han, Xianda Zheng, Qiqi Wang, Zijian Zhang"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2310.11083"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Zero-knowledge Proof Meets Machine Learning in Verifiability: A Survey"
+  image:
+  description: "CoRR abs/2310.14848 (2023)"
+  authors: "Zhibo Xing, Zijian Zhang, Jiamou Liu, Ziang Zhang, Meng Li, Liehuang Zhu, Giovanni Russello"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2310.14848"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "STF: Spatial Temporal Fusion for Trajectory Prediction"
+  image:
+  description: "CoRR abs/2311.18149 (2023)"
+  authors: "Pengqian Han, Partha S. Roop, Jiamou Liu, Tianzhe Bao, Yifei Wang"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2311.18149"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "S-T CRF: Spatial-Temporal Conditional Random Field for Human Trajectory Prediction"
+  image:
+  description: "CoRR abs/2311.18198 (2023)"
+  authors: "Pengqian Han, Jiamou Liu, Jialing He, Zeyu Zhang, Song Yang, Yanni Tang, Partha S. Roop"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2311.18198"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Behaviour Modelling of Social Animals via Causal Structure Discovery and Graph Neural Networks"
+  image:
+  description: "CoRR abs/2312.14333 (2023)"
+  authors: "Gaël Gendron, Yang Chen, Mitchell Rogers, Yiping Liu, Mihailo Azhar, Shahrokh Heidari, David Arturo Soriano Valdez, Kobe Knowles, Padriac O'Leary, Simon Eyre, Michael Witbrock, Gillian Dobbie, Jiamou Liu, Patrice Delmas"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2312.14333"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A hybrid hierarchical agent-based simulation approach for buildings indoor layout evaluation based on the post-earthquake evacuation"
+  image:
+  description: "Adv. Eng. Informatics 51 (2022)"
+  authors: "Sajjad Hassanpour, Vicente González, Jiamou Liu, Yang Zou, Guillermo Cabrera-Guerrero"
+  link:
+    url: "https://doi.org/10.1016/j.aei.2022.101531"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Multivariate Time Series Imputation: An Approach Based on Dictionary Learning"
+  image:
+  description: "Entropy 24(8) (2022)"
+  authors: "Xiaomeng Zheng, Bogdan Dumitrescu, Jiamou Liu, Ciprian Doru Giurcaneanu"
+  link:
+    url: "https://doi.org/10.3390/e24081057"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "THINK: A novel conversation model for generating grammatically correct and coherent responses"
+  image:
+  description: "Knowl. Based Syst. 242 (2022)"
+  authors: "Bin Sun, Shaoxiong Feng, Yiwei Li, Jiamou Liu, Kan Li"
+  link:
+    url: "https://doi.org/10.1016/j.knosys.2022.108376"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Dictionary learning for signals in additive noise with generalized Gaussian distribution"
+  image:
+  description: "Signal Process. 195 (2022)"
+  authors: "Xiaomeng Zheng, Bogdan Dumitrescu, Jiamou Liu, Ciprian Doru Giurcaneanu"
+  link:
+    url: "https://doi.org/10.1016/j.sigpro.2022.108488"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "DeepQR: Neural-Based Quality Ratings for Learnersourced Multiple-Choice Questions"
+  image:
+  description: "AAAI (2022)"
+  authors: "Lin Ni, Qiming Bao, Xiaoxuan Li, Qianqian Qi, Paul Denny, Jim Warren, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1609/aaai.v36i11.21562"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Individual-Level Inverse Reinforcement Learning for Mean Field Games"
+  image:
+  description: "AAMAS (2022)"
+  authors: "Yang Chen, Libo Zhang, Jiamou Liu, Shuyue Hu"
+  link:
+    url: "https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p253.pdf"
+    display: "Link"
+  highlight: 0
+  news2:
 
 - title: "Residual Entropy-based Graph Generative Algorithms"
   image:
-  description: "21st International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2022)"
-  authors: W. Liu, **J. Liu**, Y. Liu, Z. Zhang
+  description: "AAMAS (2022)"
+  authors: "Wencong Liu, Jiamou Liu, Zijian Zhang, Yiwei Liu, Liehuang Zhu"
   link:
-    url: 
-    display: 
+    url: "https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p816.pdf"
+    display: "Link"
   highlight: 0
   news2:
 
-
-- title: "Neural-based Quality Ratings for Learnersourced Multiple-Choice Questions"
+- title: "TaKG: A New Dataset for Paragraph-level Table-to-Text Generation Enhanced with Knowledge Graphs"
   image:
-  description: "Twelfth AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-22)"
-  authors: Ni, Bao, Li, Qi, Denny, Warren, Witbrock, **Liu**
+  description: "AACL/IJCNLP (Findings) (2022)"
+  authors: "Qianqian Qi, Zhenyun Deng, Yonghua Zhu, Lia Jisoo Lee, Michael Witbrock, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.18653/v1/2022.findings-aacl.17"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Space Meets Time: Local Spacetime Neural Network For Traffic Flow Forecasting"
+- title: "From Cognitive to Computational Modeling: Text-based Risky Decision-Making Guided by Fuzzy Trace Theory"
   image:
-  description: "IEEE International Conference on Data Mining (ICDM) 2021"
-  authors: _**Song Yang**_, _**Jiamou Liu**_, Kaiqi Zhao
+  description: "NAACL-HLT (Findings) (2022)"
+  authors: "Jaron Mar, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.18653/v1/2022.findings-naacl.30"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "The Impact of Top Scientist on the Community Development of Basic Research Directed by Government Funding: Evidence from Program 973 in China"
+- title: "Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation"
   image:
-  description: "Scientometrics (journal)"
-  authors: Jinyang Dong, _**Jiamou Liu**_, Tiezhong Liu
+  description: "NeSy (2022)"
+  authors: "Qiming Bao, Alex Yuxuan Peng, Tim Hartill, Neset Tan, Zhenyun Deng, Michael Witbrock, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://ceur-ws.org/Vol-3212/paper15.pdf"
+    display: "Link"
   highlight: 0
   news2:
 
-- title: "From Local to Global Norm Emergence: Dissolving Self-reinforcing Substructures with Incremental Social Instruments"
+- title: "Interconnected Neural Linear Contextual Bandits with UCB Exploration"
   image:
-  description: "ICML 2021: International Conference on Machine Learning 2021."
-  authors: Yiwei Liu, _**Jiamou Liu**_, Bakhadyr Khoussainov, Zijian Zhang
+  description: "PAKDD (1) (2022)"
+  authors: "Yang Chen, Miao Xie, Jiamou Liu, Kaiqi Zhao"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-3-031-05933-9_14"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Generating Relevant and Coherent Dialogue Responses using Self-Separated Conditional Variational AutoEncoders"
+- title: "An Anomaly Detection Framework for System Logs Based on Ensemble Learning"
   image:
-  description: "ACL 2021: Annual Meeting of the Association for Computational Linguistics, 2021."
-  authors: B Sun, S Feng, Y Li, _**J Liu**_, K Li
+  description: "PRICAI (1) (2022)"
+  authors: "Wenjing Xiong, Wu Chen, Jiamou Liu, Kaiqi Zhao"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-981-99-7019-3_6"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "GETNext: Trajectory Flow Map Enhanced Transformer for Next POI Recommendation"
+  image:
+  description: "SIGIR (2022)"
+  authors: "Song Yang, Jiamou Liu, Kaiqi Zhao"
+  link:
+    url: "https://doi.org/10.1145/3477495.3531983"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Individual-Level Inverse Reinforcement Learning for Mean Field Games"
+  image:
+  description: "CoRR abs/2202.06401 (2022)"
+  authors: "Yang Chen, Libo Zhang, Jiamou Liu, Shuyue Hu"
+  link:
+    url: "https://arxiv.org/abs/2202.06401"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "From Cognitive to Computational Modeling: Text-based Risky Decision-Making Guided by Fuzzy Trace Theory"
+  image:
+  description: "CoRR abs/2205.07164 (2022)"
+  authors: "Jaron Mar, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2205.07164"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation"
+  image:
+  description: "CoRR abs/2207.14000 (2022)"
+  authors: "Qiming Bao, Alex Yuxuan Peng, Tim Hartill, Neset Tan, Zhenyun Deng, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2207.14000"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Constrained Few-Shot Learning: Human-Like Low Sample Complexity Learning and Non-Episodic Text Classification"
+  image:
+  description: "CoRR abs/2208.08089 (2022)"
+  authors: "Jaron Mar, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2208.08089"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Centralization Problem for Opinion Convergence in Decentralized Networks"
+  image:
+  description: "CoRR abs/2210.16041 (2022)"
+  authors: "Yiping Liu, Jiamou Liu, Bakhadyr Khoussainov, Miao Qiao, Bo Yan"
+  link:
+    url: "https://doi.org/10.48550/arXiv.2210.16041"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Exploring active attacks for three incorrect implementations of the ISO/IEC 9798 in satellite networks"
+  image:
+  description: "Comput. Commun. 172 (2021)"
+  authors: "Zhengjia Zhu, Hao Yin, Zijian Zhang, Tielei Li, Jiamou Liu, Bakh Khoussainov, Chang Xu"
+  link:
+    url: "https://doi.org/10.1016/j.comcom.2021.02.023"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "Exchange, adopt, evolve: Modeling the spreading of opinions through cognition and interaction in a social network"
   image:
-  description: "Information Sciences 551, 1-22 (IF: 5.524), 2021."
-  authors: _**Y Tang**_, _**J Liu**_, W Chen
+  description: "Inf. Sci. 551 (2021)"
+  authors: "Yanni Tang, Jiamou Liu, Wu Chen"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1016/j.ins.2020.11.043"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "On improving knowledge graph facilitated simple question answering system"
   image:
-  description: "Neural Computing and Applications (IF: 5.858), 1-10, 2021."
-  authors: X Li, H Zang, X Yu, H Wu, Z Zhang, _**J Liu**_, M Wang
+  description: "Neural Comput. Appl. 33(16) (2021)"
+  authors: "Xin Li, Hongyu Zang, Xiaoyun Yu, Hao Wu, Zijian Zhang, Jiamou Liu, Mingzhong Wang"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/s00521-021-05762-9"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "GACAN Graph Attention-Convolution-Attention Networks for Traffic Forecasting Based on Multi-granularity Time Series"
+- title: "The impact of top scientists on the community development of basic research directed by government funding: evidence from program 973 in China"
   image:
-  description: "IJCNN 2021: International Joint Conference on Neural Network, 2021."
-  authors: S Zhang, H Zheng, H Su, B Yan, _**J Liu**_, _**S Yang**_
+  description: "Scientometrics 126(10) (2021)"
+  authors: "Jinyang Dong, Jiamou Liu, Tiezhong Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/s11192-021-04092-w"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Social Capital Games as A Framework for Social Structural Pattern Emergence"
+- title: "Gist Trace-based Learning: Efficient Convention Emergence from Multilateral Interactions"
   image:
-  description: "ASONAM 2020 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, 2020."
-  authors: _**Y Chen**_, _**J Liu**_
+  description: "ACM Trans. Auton. Adapt. Syst. 16(1) (2021)"
+  authors: "Shuyue Hu, Chin-Wing Leung, Ho-fung Leung, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1145/3502199"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Time-Efficient Ensemble Learning with Sample Exchange for Edge Computing"
+  image:
+  description: "ACM Trans. Internet Techn. 21(3) (2021)"
+  authors: "Wu Chen, Yong Yu, Keke Gai, Jiamou Liu, Kim-Kwang Raymond Choo"
+  link:
+    url: "https://doi.org/10.1145/3409265"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Generating Relevant and Coherent Dialogue Responses using Self-Separated Conditional Variational AutoEncoders"
+  image:
+  description: "ACL/IJCNLP (1) (2021)"
+  authors: "Bin Sun, Shaoxiong Feng, Yiwei Li, Jiamou Liu, Kan Li"
+  link:
+    url: "https://doi.org/10.18653/v1/2021.acl-long.437"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Space Meets Time: Local Spacetime Neural Network For Traffic Flow Forecasting"
+  image:
+  description: "ICDM (2021)"
+  authors: "Song Yang, Jiamou Liu, Kaiqi Zhao"
+  link:
+    url: "https://doi.org/10.1109/ICDM51629.2021.00093"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "From Local to Global Norm Emergence: Dissolving Self-reinforcing Substructures with Incremental Social Instruments"
+  image:
+  description: "ICML (2021)"
+  authors: "Yiwei Liu, Jiamou Liu, Kaibin Wan, Zhan Qin, Zijian Zhang, Bakhadyr Khoussainov, Liehuang Zhu"
+  link:
+    url: "http://proceedings.mlr.press/v139/liu21n.html"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "Improving Togetherness Using Structural Entropy"
+  image:
+  description: "MobiCASE (2021)"
+  authors: "Siyu Zhang, Jiamou Liu, Yiwei Liu, Zijian Zhang, Bakhadyr Khoussainov"
+  link:
+    url: "https://doi.org/10.1007/978-3-030-99203-3_6"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Attacking Community Detectors: Mislead Detectors via Manipulating the Graph Structure"
+  image:
+  description: "MobiCASE (2021)"
+  authors: "Kaibin Wan, Jiamou Liu, Yiwei Liu, Zijian Zhang, Bakhadyr Khoussainov"
+  link:
+    url: "https://doi.org/10.1007/978-3-030-99203-3_8"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Maximum Entropy Inverse Reinforcement Learning for Mean Field Games"
+  image:
+  description: "CoRR abs/2104.14654 (2021)"
+  authors: "Yang Chen, Jiamou Liu, Bakhadyr Khoussainov"
+  link:
+    url: "https://arxiv.org/abs/2104.14654"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "THINK: A Novel Conversation Model for Generating Grammatically Correct and Coherent Responses"
+  image:
+  description: "CoRR abs/2105.13630 (2021)"
+  authors: "Bin Sun, Shaoxiong Feng, Yiwei Li, Jiamou Liu, Kan Li"
+  link:
+    url: "https://arxiv.org/abs/2105.13630"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Generating Relevant and Coherent Dialogue Responses using Self-separated Conditional Variational AutoEncoders"
+  image:
+  description: "CoRR abs/2106.03410 (2021)"
+  authors: "Bin Sun, Shaoxiong Feng, Yiwei Li, Jiamou Liu, Kan Li"
+  link:
+    url: "https://arxiv.org/abs/2106.03410"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Space Meets Time: Local Spacetime Neural Network For Traffic Flow Forecasting"
+  image:
+  description: "CoRR abs/2109.05225 (2021)"
+  authors: "Song Yang, Jiamou Liu, Kaiqi Zhao"
+  link:
+    url: "https://arxiv.org/abs/2109.05225"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "GACAN: Graph Attention-Convolution-Attention Networks for Traffic Forecasting Based on Multi-granularity Time Series"
+  image:
+  description: "CoRR abs/2110.14331 (2021)"
+  authors: "Sikai Zhang, Hong Zheng, Hongyi Su, Bo Yan, Jiamou Liu, Song Yang"
+  link:
+    url: "https://arxiv.org/abs/2110.14331"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "DeepQR: Neural-based Quality Ratings for Learnersourced Multiple-Choice Questions"
+  image:
+  description: "CoRR abs/2111.10058 (2021)"
+  authors: "Lin Ni, Qiming Bao, Xiaoxuan Li, Qianqian Qi, Paul Denny, Jim Warren, Michael Witbrock, Jiamou Liu"
+  link:
+    url: "https://arxiv.org/abs/2111.10058"
+    display: "arXiv"
   highlight: 0
   news2:
 
 - title: "Who is Driving? Event-Driven Driver Identification and Impostor Detection Through Support Vector Machine"
   image:
   description: "IEEE Sensors Journal, Volume: 20, Issue: 12, June 15, 2020. (IF:3.076)"
-  authors: M. Rahim, _**J. Liu**_, Z. Zhang, L. Zhu, X. Li, S. Khan
+  authors: "M. Rahim, _**J. Liu**_, Z. Zhang, L. Zhu, X. Li, S. Khan"
   link:
-    url: 
-    display: 
+    url:
+    display:
+  highlight: 0
+  news2:
+
+- title: "WiPOS: A POS Terminal Password Inference System Based on Wireless Signals"
+  image:
+  description: "IEEE Internet Things J. 7(8) (2020)"
+  authors: "Zijian Zhang, Nurilla Avazov, Jiamou Liu, Bakh Khoussainov, Xin Li, Keke Gai, Liehuang Zhu"
+  link:
+    url: "https://doi.org/10.1109/JIOT.2020.2986700"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Blockchain-based anomaly detection of electricity consumption in smart grids"
+  image:
+  description: "Pattern Recognit. Lett. 138 (2020)"
+  authors: "Meng Li, Keli Zhang, Jiamou Liu, Hanxiao Gong, Zijian Zhang"
+  link:
+    url: "https://doi.org/10.1016/j.patrec.2020.07.020"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "Zero-to-Stable Driver Identification: A Non-Intrusive and Scalable Driver Identification Scheme"
   image:
-  description: "IEEE Transactions on Vehicular Technology (Volume: 69, Issue: 1, Jan. 2020) (IF: 5.339)"
-  authors: M. Rahim, L. Zhu, X.Li, _**J. Liu**_, Z. Zhang, Z. Qin, S. Khan, K. Gai
+  description: "IEEE Trans. Veh. Technol. 69(1) (2020)"
+  authors: "Mussadiq Abdul Rahim, Liehuang Zhu, Xin Li, Jiamou Liu, Zijian Zhang, Zhan Qin, Salabat Khan, Keke Gai"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1109/TVT.2019.2954529"
+    display: "DOI"
   highlight: 0
   news2:
 
-
-- title: "WiPOS: A POS Terminal Password Inference System Based on Wireless Signals"
+- title: "BSCI '20: Proceedings of the 2nd ACM International Symposium on Blockchain and Secure Critical Infrastructure, co-located with AsiaCCS 2020, Taipei, Taiwan, October 6, 2020"
   image:
-  description: "IEEE Internet of Things Journal, 2020."
-  authors: Z. Zhang, N. Avazov, _**J. Liu**_, B. Khoussainov, X. Li, K. Gai, L. Zhu
+  description: "BSCI proceedings (2020)"
+  authors: "Keke Gai, Kim-Kwang Raymond Choo, Jiamou Liu (editors)"
   link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "On the Use of Dictionary Learning in Time Series Imputation"
-  image:
-  description: "28th European Signal Processing Conference (EUSIPCO 2020), 2020."
-  authors: _**X. Zheng**_, B. Dumitrescu, _**J. Liu**_, C. Giurcaneanu
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "Selling Data at an Auction under Privacy Constraints"
-  image:
-  description: "UAI 2020: 36th Conference on Uncertainty in Artificial Intelligence, 2020."
-  authors: _**M. Zhang**_, F. Beltran, _**J. Liu**_
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "Social Structure Emergence: A Multi-agent Reinforcement Learning Framework for Relationship Building"
-  image:
-  description: "AAMAS 2020: 19th International Conference on Autonomous Agents and Multi-Agent Systems, 2020."
-  authors: _**Y. Chen**_, _**J. Liu**_, H. Zhao, H. Su
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "What's in a gist? Towards an unsupervised gist representation for few-shot large document classification"
-  image:
-  description: "PAKDD 2020: The 24th Pacific-Asia Conference on Knowledge Discovery and Data Mining, Singapore, 2020."
-  authors: _**J. Mar**_, _**J. Liu**_
-  link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1145/3384943"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "HHH: An Online Medical Chatbot System based on Knowledge Graph and Hierarchical Bi-Directional Attention"
   image:
-  description:  "Australasian Computer Science Week, ACSW 2020, Melbourne, Australia."
-  authors: _**Q. Bao**_, _**L. Ni**_, _**J. Liu**_
+  description: "ACSW (2020)"
+  authors: "Qiming Bao, Lin Ni, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1145/3373017.3373049"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Becoming Gatekeepers Together with Allies: Collaborative Brokerage over Social Networks"
+- title: "Social Capital Games as A Framework for Social Structural Pattern Emergence"
   image:
-  description: "ASONAM 2019. IEEE/ACM International Conference on Social Networks Analysis and Mining, Vancouver, Canada, 2019."
-  authors: _**Y. Chen**_, _**J. Liu**_
+  description: "ASONAM (2020)"
+  authors: "Yang Chen, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1109/ASONAM49781.2020.9381448"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Can Reinforcement Learning Enhance Social Capital?"
+- title: "Social Structure Emergence: A Multi-agent Reinforcement Learning Framework for Relationship Building"
   image:
-  description: "International Conference on Web Information Systems Engineering 2019, 157-171, Springer."
-  authors: _**Y. Chen**_, _**J. Liu**_
+  description: "AAMAS (2020)"
+  authors: "Yang Chen, Jiamou Liu, He Zhao, Hongyi Su"
   link:
-    url: 
-    display: 
+    url: "https://dl.acm.org/doi/10.5555/3398761.3398989"
+    display: "Link"
   highlight: 0
   news2:
 
-- title: "REM: From Structural Entropy to Community Structure Deception"
+- title: "Incentive Mechanism for Social Network Data Pricing under Privacy Preservation"
   image:
-  description:  "NeurIPS 2019. Thirty-third Conference on Neural Information Processing Systems"
-  authors: Y. Liu, _**J. Liu**_, Z. Zhang, Z. Zhu, A. Li
+  description: "BSCI (2020)"
+  authors: "Mengxiao Zhang, Fernando Beltrán, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1145/3384943.3409425"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "On the maximization of influence over an unknown social network (extended abstract)"
+- title: "Whispers on Ethereum: Blockchain-based Covert Data Embedding Schemes"
   image:
-  description: "AAMAS 2019: 18th International Conference on Autonomous Agents and Multi-Agent Systems, Montreal, 2019."
-  authors: B. Yan, K. Song, _**J. Liu**_, _**Y. Liu**_
+  description: "BSCI (2020)"
+  authors: "Shaoyuan Liu, Zhi Fang, Feng Gao, Bakh Khoussainov, Zijian Zhang, Jiamou Liu, Liehuang Zhu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1145/3384943.3409433"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "To be Big Picture Thinker or Detail-Oriented? Utilizing Perceived Gist Information to Achieve Efficient Convention Emergence with Bilateralism and Multilateralism (extended abstract)"
+- title: "Network Embedding Based On Structural Information Entropy: Network embedding"
   image:
-  description: "AAMAS 2019: 18th International Conference on Autonomous Agents and Multi-Agent Systems, Montreal, 2019." 
-  authors: S. Hu, C. Leong, H. Leong, _**J. Liu**_
+  description: "BSCI (2020)"
+  authors: "Bo Yan, Hao Zhong, Yiping Liu, Jiamou Liu, Hongyi Su, Hong Zheng, Sheng Zhang"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1145/3384943.3409438"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Periodic Neural Networks for Multivariate Time Series Analysis and Forecasting"
+- title: "On the Use of Dictionary Learning in Time Series Imputation"
   image:
-  description: "IJCNN 2019: International Joint Conference on Neural Network, Budapest, Hungary, 2019." 
-  authors: N. Avazov, _**J. Liu**_, B. Khoussainov
+  description: "EUSIPCO (2020)"
+  authors: "Xiaomeng Zheng, Bogdan Dumitrescu, Jiamou Liu, Ciprian Doru Giurcaneanu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.23919/Eusipco47968.2020.9287458"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Distributed Community Detection over Blockchain Networks Based on Structural Entropy"
+- title: "What's in a Gist? Towards an Unsupervised Gist Representation for Few-Shot Large Document Classification"
   image:
-  description: "ACM International Symposium on Blockchain and Secure Critical Infrastructure (BSCI 2019), held in conjunction with AsiaCCS 2019. **(Best paper award)**"
-  authors: _**Y. Chen**_, _**J. Liu**_
+  description: "PAKDD (1) (2020)"
+  authors: "Jaron Mar, Jiamou Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-3-030-47426-3_21"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Selling Data at an Auction under Privacy Constraints"
+  image:
+  description: "UAI (2020)"
+  authors: "Mengxiao Zhang, Fernando Beltrán, Jiamou Liu"
+  link:
+    url: "http://proceedings.mlr.press/v124/zhang20b.html"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "HHH: An Online Medical Chatbot System based on Knowledge Graph and Hierarchical Bi-Directional Attention"
+  image:
+  description: "CoRR abs/2002.03140 (2020)"
+  authors: "Qiming Bao, Lin Ni, Jiamou Liu"
+  link:
+    url: "https://arxiv.org/abs/2002.03140"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Selling Data at an Auction under Privacy Constraints"
+  image:
+  description: "CoRR abs/2005.09248 (2020)"
+  authors: "Mengxiao Zhang, Fernando Beltrán, Jiamou Liu"
+  link:
+    url: "https://arxiv.org/abs/2005.09248"
+    display: "arXiv"
   highlight: 0
   news2:
 
 - title: "A Model of Minority Influence in Preferential Norm Formation"
   image:
   description: "International Symposium on Knowledge and Systems Sciences KSS 2019. 106-121. Springer."
-  authors: Q.Liu, H. Zheng,  _**W. Li**_, _**J. Liu**_, B. Yan, H. Su,
+  authors: "Q.Liu, H. Zheng,  _**W. Li**_, _**J. Liu**_, B. Yan, H. Su,"
   link:
-    url: 
-    display: 
+    url:
+    display:
+  highlight: 0
+  news2:
+
+- title: "Optimizing the restoration performance of deduplication systems through an energy-saving data layout"
+  image:
+  description: "Ann. des Télécommunications 74(7-8) (2019)"
+  authors: "Fang Yan, Xi Yang, Jiamou Liu, Hengliang Tang, Yu-an Tan, Yuanzhang Li"
+  link:
+    url: "https://doi.org/10.1007/s12243-019-00711-z"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "An Efficient and Accurate Nonintrusive Load Monitoring Scheme for Power Consumption"
+  image:
+  description: "IEEE Internet Things J. 6(5) (2019)"
+  authors: "Jialing He, Zijian Zhang, Liehuang Zhu, Zhesi Zhu, Jiamou Liu, Keke Gai"
+  link:
+    url: "https://doi.org/10.1109/JIOT.2019.2926815"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "In Pursuit of Social Capital: Upgrading Social Circle Through Edge Rewiring"
+  image:
+  description: "APWeb/WAIM (1) (2019)"
+  authors: "Qian Chen, Hongyi Su, Jiamou Liu, Bo Yan, Hong Zheng, He Zhao"
+  link:
+    url: "https://doi.org/10.1007/978-3-030-26072-9_15"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Becoming gatekeepers together with allies: collaborative brokerage over social networks"
+  image:
+  description: "ASONAM (2019)"
+  authors: "Yang Chen, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1145/3341161.3342874"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "To be Big Picture Thinker or Detail-Oriented?: Utilizing Perceived Gist Information to Achieve Efficient Convention Emergence with Bilateralism and Multilateralism"
+  image:
+  description: "AAMAS (2019)"
+  authors: "Shuyue Hu, Chin-wing Leung, Ho-fung Leung, Jiamou Liu"
+  link:
+    url: "http://dl.acm.org/citation.cfm?id=3331997"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "On the Maximization of Influence Over an Unknown Social Network"
+  image:
+  description: "AAMAS (2019)"
+  authors: "Bo Yan, Kexiu Song, Jiamou Liu, Fanku Meng, Yiping Liu, Hongyi Su"
+  link:
+    url: "http://dl.acm.org/citation.cfm?id=3332084"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "Distributed Community Detection over Blockchain Networks Based on Structural Entropy"
+  image:
+  description: "BSCI (2019)"
+  authors: "Yang Chen, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1145/3327960.3332381"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A New Complex Network Robustness Attack Algorithm"
+  image:
+  description: "BSCI (2019)"
+  authors: "Xinyi Li, Zijian Zhang, Jiamou Liu, Keke Gai"
+  link:
+    url: "https://doi.org/10.1145/3327960.3332385"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Session details: Session 3: Blockchain-enabled Applications"
+  image:
+  description: "BSCI (2019)"
+  authors: "Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1145/3344283"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Decentralized Ensemble Learning Based on Sample Exchange among Multiple Agents"
+  image:
+  description: "BSCI (2019)"
+  authors: "Yong Yu, Jia Deng, Yanni Tang, Jiamou Liu, Wu Chen"
+  link:
+    url: "https://doi.org/10.1145/3327960.3332383"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "How to Improve the Cohesion of a Social Network? A Structural Perspective"
+  image:
+  description: "CANDAR (2019)"
+  authors: "Ruochen Jiang, Jiamou Liu, Wu Chen"
+  link:
+    url: "https://doi.org/10.1109/CANDAR.2019.00025"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Efficient and Robust Emergence of Conventions through Learning and Staying"
+  image:
+  description: "ICA (2019)"
+  authors: "Wei Liu, Shuyue Hu, Jiamou Liu, Wu Chen, Siyuan Chen, Yong Yu"
+  link:
+    url: "https://doi.org/10.1109/AGENTS.2019.8929165"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Maximizing Social Welfare in Fractional Hedonic Games using Shapley Value"
+  image:
+  description: "ICA (2019)"
+  authors: "Siyuan Chen, Wei Liu, Jiamou Liu, Khí-Uí Soo, Wu Chen"
+  link:
+    url: "https://doi.org/10.1109/AGENTS.2019.8929212"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Establishing Ties with Bounded Capacity and Limited Network Access"
+  image:
+  description: "ICIAI (2019)"
+  authors: "Qian Chen, Hongyi Su, Jiamou Liu, Bo Yan, Hong Zheng"
+  link:
+    url: "https://doi.org/10.1145/3319921.3319957"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Interpersonal Ties and the Social Link Recommendation Problem"
+  image:
+  description: "ICSAI (2019)"
+  authors: "Song Ji, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1109/ICSAI48974.2019.9010470"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Periodic Neural Networks for Multivariate Time Series Analysis and Forecasting"
+  image:
+  description: "IJCNN (2019)"
+  authors: "Nurilla Avazov, Jiamou Liu, Bakhadyr Khoussainov"
+  link:
+    url: "https://doi.org/10.1109/IJCNN.2019.8851710"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Exploratory Community Detection: Finding Communities in Unknown Networks"
+  image:
+  description: "MSN (2019)"
+  authors: "Bo Yan, Fanku Meng, Jiamou Liu, Yiping Liu, Hongyi Su"
+  link:
+    url: "https://doi.org/10.1109/MSN48538.2019.00048"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Summarizing the Slices: Sample-Based Core-Periphery Classification on Complex Networks"
+  image:
+  description: "MSN (2019)"
+  authors: "Bo Yan, Wenli Tang, Jiamou Liu, Yiping Liu, Fanku Meng, Hongyi Su"
+  link:
+    url: "https://doi.org/10.1109/MSN48538.2019.00049"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "REM: From Structural Entropy to Community Structure Deception"
+  image:
+  description: "NeurIPS (2019)"
+  authors: "Yiwei Liu, Jiamou Liu, Zijian Zhang, Liehuang Zhu, Angsheng Li"
+  link:
+    url: "https://proceedings.neurips.cc/paper/2019/hash/328347805873e9a9c700591812fb0ec2-Abstract.html"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "A Reinforcement Learning Approach to Gaining Social Capital with Partial Observation"
+  image:
+  description: "PRICAI (1) (2019)"
+  authors: "He Zhao, Hongyi Su, Yang Chen, Jiamou Liu, Hong Zheng, Bo Yan"
+  link:
+    url: "https://doi.org/10.1007/978-3-030-29908-8_9"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "Time-Efficient Network Monitoring Through Confined Search and Adaptive Evaluation"
   image:
-  description: "PRICAI 2019."
-  authors: Q. Hu, A. Li, _**J. Liu**_, J. Liu
+  description: "PRICAI (2) (2019)"
+  authors: "Qifu Hu, Angsheng Li, Jiamou Liu, Jun Liu"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-3-030-29911-8_49"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "A Reinforcement Learning Approach to Gaining Social Capital with Partial Observation (extended abstract)"
+- title: "Can Reinforcement Learning Enhance Social Capital?"
   image:
-  description: "PRICAI 2019."
-  authors: H. Zhao, H. Su, _**Y. Chen**_, _**J. Liu**_, H. Zheng, B. Yan,
+  description: "WISE Workshops (2019)"
+  authors: "He Zhao, Hongyi Su, Yang Chen, Jiamou Liu, Bo Yan, Hong Zheng"
   link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "From the Periphery to the Core: Information Brokerage in an Evolving Network"
-  image:
-  description: "the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence (IJCAI-ECAI 2018)."
-  authors: B. Yan, _**Y. Liu**_, _**J. Liu**_
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "Balancing the Pain and Gain of Hobnobbing: Utility-based Network Building over Attributed Social Networks"
-  image:
-  description: "AAMAS-18: 17th International Conference on Autonomous Agents and Multiagent Systems."
-  authors: Y. Cai, H. Zheng, _**J. Liu**_, B. Yan, _**Y. Liu**_
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering"
-  image:
-  description: "IJCNN 2018: International Joint Conference on Neural Networks."
-  authors: H. Zhao, _**J. Liu**_
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "Evaluating and Analyzing Reliability over Decentralized and Complex Networks"
-  image:
-  description: "22nd Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2018), Melbourne, Australia."
-  authors: _**J. Mar**_, _**J. Liu**_, W. Chen, Y. Tang, T. Sun, 
-  link:
-    url: 
-    display: 
-  highlight: 0
-  news2:
-
-- title: "An Agent-based Approach to Simulate Post-earthquake Indoor Crowd Evacuation"
-  image:
-  description:  "The 21st International Conference on Principles and Practice of Multi-Agent Systems (PRIMA 2018), Tokyo, Japan."
-  authors: _**L. Ni**_, V. Gonzalez, _**J. Liu**_, A. Rahouti, L. Zhang, B. P. Taing
-  link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1007/978-981-15-3281-8_14"
+    display: "DOI"
   highlight: 0
   news2:
 
 - title: "MSO Theory of Decidable Infinite and Bi-infinite Words"
   image:
-  description:  "Logical Methods in Computer Science. 14(3), 2018."
-  authors: D. Kuske, _**J. Liu**_, A. Moskvina,
+  description: "Logical Methods in Computer Science. 14(3), 2018."
+  authors: "D. Kuske, _**J. Liu**_, A. Moskvina,"
   link:
-    url: 
-    display: 
+    url:
+    display:
   highlight: 0
   news2:
 
 - title: "A Framework for Domain-Specific Natural Language Information Brokerage"
   image:
-  description:  "Journal of Systems Science and Systems Engineering. (2018). 559--585. Springer 2018."
-  authors: N. Lin, _**J. Liu**_
+  description: "Journal of Systems Science and Systems Engineering. (2018). 559--585. Springer 2018."
+  authors: "N. Lin, _**J. Liu**_"
   link:
-    url: 
-    display: 
+    url:
+    display:
   highlight: 0
   news2:
 
-- title: "Network, Popularity and Social Cohesion: A Game-Theoretic Approach"
+- title: "Infinite and Bi-infinite Words with Decidable Monadic Theories"
   image:
-  description:  "Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (AAAI-17), San Francisco, USA, 2017"
-  authors: _**J. Liu**_, Z. Wei
+  description: "Log. Methods Comput. Sci. 14(3) (2018)"
+  authors: "Dietrich Kuske, Jiamou Liu, Anastasia Moskvina"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.23638/LMCS-14(3:9)2018"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "What Becomes of the Broken Hearted? -- An Agent-Based Approach to Self-Evaluation, Interpersonal Loss,  and Suicide Ideation"
+- title: "Balancing the Pain and Gain of Hobnobbing: Utility-Based Network Building over Atributed Social Networks"
   image:
-  description:  "AAMAS-17: Proceedings of  the Sixteenth International Conference on Autonomous Agents and Multiagent Systems, Sao Paulo, Brazil, 2017"
-  authors: _**J. Liu**_, L. Li, K. Russell
+  description: "AAMAS (2018)"
+  authors: "Yijin Cai, Hong Zheng, Jiamou Liu, Bo Yan, Hongyi Su, Yiping Liu"
   link:
-    url: 
-    display: 
+    url: "http://dl.acm.org/citation.cfm?id=3237418"
+    display: "Link"
   highlight: 0
   news2:
 
-- title: "Dynamic Relationship Building: Exploitation Versus Exploration on a Social Network"
+- title: "From the Periphery to the Core: Information Brokerage in an Evolving Network"
   image:
-  description:  "WISE-17: The 18th International Conference on Web Information Systems Engineering, Russia. 2017."
-  authors: B. Yan, _**Y. Chen**_, _**J. Liu**_
+  description: "IJCAI (2018)"
+  authors: "Bo Yan, Yiping Liu, Jiamou Liu, Yijin Cai, Hongyi Su, Hong Zheng"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.24963/ijcai.2018/544"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering"
+  image:
+  description: "IJCNN (2018)"
+  authors: "Helen Jiahe Zhao, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1109/IJCNN.2018.8489756"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Improving Influence Maximization from Samples: An Empirical Analysis"
+  image:
+  description: "MSN (2018)"
+  authors: "Kexiu Song, Jiamou Liu, Bo Yan, Hongyi Su, Chunxiao Gao"
+  link:
+    url: "https://doi.org/10.1109/MSN.2018.00023"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Evaluating and Analyzing Reliability over Decentralized and Complex Networks"
+  image:
+  description: "PAKDD (3) (2018)"
+  authors: "Jaron Mar, Jiamou Liu, Yanni Tang, Wu Chen, Tianyi Sun"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-93040-4_58"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A Search Optimization Method for Rule Learning in Board Games"
+  image:
+  description: "PRICAI (2018)"
+  authors: "Hui Wang, Yanni Tang, Jiamou Liu, Wu Chen"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-97310-4_20"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Establishing Connections in a Social Network - Radial Versus Medial Centrality Indices"
+  image:
+  description: "PRICAI (1) (2018)"
+  authors: "Yanni Tang, Jiamou Liu, Wu Chen, Zhuoxing Zhang"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-97304-3_80"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "An Agent-Based Approach to Simulate Post-earthquake Indoor Crowd Evacuation"
+  image:
+  description: "PRIMA (2018)"
+  authors: "Lin Ni, Vicente González, Jiamou Liu, Anass Rahouti, Libo Zhang, Bun Por Taing"
+  link:
+    url: "https://doi.org/10.1007/978-3-030-03098-8_43"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "From the Periphery to the Center: Information Brokerage in an Evolving Network"
+  image:
+  description: "CoRR abs/1805.00751 (2018)"
+  authors: "Bo Yan, Yiping Liu, Jiamou Liu, Yijin Cai, Hongyi Su, Hong Zheng"
+  link:
+    url: "http://arxiv.org/abs/1805.00751"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering"
+  image:
+  description: "CoRR abs/1810.12118 (2018)"
+  authors: "Helen Jiahe Zhao, Jiamou Liu"
+  link:
+    url: "http://arxiv.org/abs/1810.12118"
+    display: "arXiv"
   highlight: 0
   news2:
 
 - title: "MANDY: Towards A Smart Primary Care Chatbot Application"
   image:
-  description:  "KSS-17: The 18th International Symposium on Knowledge and Systems Sciences, Bangkok, Thailand. 2017."
-  authors: _**L. Ni**_, C. Lu, N. Liu, _**J. Liu**_
+  description: "KSS-17: The 18th International Symposium on Knowledge and Systems Sciences, Bangkok, Thailand. 2017."
+  authors: "_**L. Ni**_, C. Lu, N. Liu, _**J. Liu**_"
   link:
-    url: 
-    display: 
+    url:
+    display:
   highlight: 0
   news2:
 
-- title: "How to Build Your Network: A Structural Analysis"
+- title: "Network, Popularity and Social Cohesion: A Game-Theoretic Approach"
   image:
-  description:  "Proceedings of the 25th International Joint Conference on Artificial Intelligence (IJCAI-16), pp: 2597-2603. New York. AAAI Press,  2016."
-  authors: A. Moskvina, _**J. Liu**_
+  description: "AAAI (2017)"
+  authors: "Jiamou Liu, Ziheng Wei"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1609/aaai.v31i1.10568"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Togetherness: An Algorithmic Approach to Network Integration"
+- title: "From Secrete Admirer to Cyberstalker: A Measure of Online Interpersonal Surveillance"
   image:
-  description: "Proceedings of thee IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining."
-  authors: A. Moskvina, _**J. Liu**_
+  description: "ASONAM (2017)"
+  authors: "Zijian Zhang, Jiamou Liu, Ziheng Wei, Yingying Tao, Quan Bai"
   link:
-    url: 
-    display: 
+    url: "https://doi.org/10.1145/3110025.3110065"
+    display: "DOI"
   highlight: 0
   news2:
 
-- title: "Hierarchies, Ties and Power in Organizational Networks: Model and Analysis"
+- title: "What Becomes of the Broken Hearted?: An Agent-Based Approach to Self-Evaluation, Interpersonal Loss, and Suicide Ideation"
   image:
-  description: "Social Network Analysis and Mining 6(1). 106:1-106:26. Springer 2016."
-  authors: _**J. Liu**_, A. Moskvina
+  description: "AAMAS (2017)"
+  authors: "Jiamou Liu, Luqi Li, Kyle Russell"
   link:
-    url: 
-    display: 
+    url: "http://dl.acm.org/citation.cfm?id=3091191"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "Contextual Keys"
+  image:
+  description: "ER (2017)"
+  authors: "Ziheng Wei, Sebastian Link, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-69904-2_22"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Detecting abnormal attention in online social networks from local views"
+  image:
+  description: "ICA (2017)"
+  authors: "Yingying Tao, Quan Bai, Jiamou Liu, Hangxia Zhou"
+  link:
+    url: "https://doi.ieeecomputersociety.org/10.1109/AGENTS.2017.8015291"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "A consensus value approach for influence maximization in social networks"
+  image:
+  description: "ICA (2017)"
+  authors: "Fang Yang, Hui Wang, Yanni Tang, Jiamou Liu, Wu Chen"
+  link:
+    url: "https://doi.ieeecomputersociety.org/10.1109/AGENTS.2017.8015292"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "Facility Location Selection Using Community-Based Single Swap: A Case Study"
+  image:
+  description: "MSN (2017)"
+  authors: "Rixin Xu, Zijian Zhang, Jiamou Liu, Nathan Situ, Jun Ho Jin"
+  link:
+    url: "https://doi.org/10.1007/978-981-10-8890-2_5"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Modeling anomalous attention over an online social network through read/post analytics"
+  image:
+  description: "SPAC (2017)"
+  authors: "Zijian Zhang, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1109/SPAC.2017.8304266"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Dynamic Relationship Building: Exploitation Versus Exploration on a Social Network"
+  image:
+  description: "WISE (1) (2017)"
+  authors: "Bo Yan, Yang Chen, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-68783-4_6"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Infinite and Bi-infinite Words with Decidable Monadic Theories"
+  image:
+  description: "CoRR abs/1712.03759 (2017)"
+  authors: "Dietrich Kuske, Jiamou Liu, Anastasia Moskvina"
+  link:
+    url: "http://arxiv.org/abs/1712.03759"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Dynamic Algorithms for Multimachine Interval Scheduling Through Analysis of Idle Intervals"
+  image:
+  description: "Algorithmica 76(4) (2016)"
+  authors: "Alex Gavryushkin, Bakhadyr Khoussainov, Mikhail Kokho, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/s00453-016-0148-5"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Hierarchies, ties and power in organizational networks: model and analysis"
+  image:
+  description: "Soc. Netw. Anal. Min. 6(1) (2016)"
+  authors: "Jiamou Liu, Anastasia Moskvina"
+  link:
+    url: "https://doi.org/10.1007/s13278-016-0413-2"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Togetherness: An algorithmic approach to network integration"
+  image:
+  description: "ASONAM (2016)"
+  authors: "Anastasia Moskvina, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1109/ASONAM.2016.7752239"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Integrating Networks of Equipotent Nodes"
+  image:
+  description: "CSoNet (2016)"
+  authors: "Anastasia Moskvina, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-42345-6_4"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Measuring Structural Resilience through a Carrier Network Model"
+  image:
+  description: "DASC/PiCom/DataCom/CyberSciTech (2016)"
+  authors: "Ziheng Wei, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1109/DASC-PICom-DataCom-CyberSciTec.2016.50"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "How to Build Your Network? A Structural Analysis"
+  image:
+  description: "IJCAI (2016)"
+  authors: "Anastasia Moskvina, Jiamou Liu"
+  link:
+    url: "http://www.ijcai.org/Abstract/16/369"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "Towards Exposing Cyberstalkers in Online Social Networks"
+  image:
+  description: "PRICAI (2016)"
+  authors: "Jiamou Liu, Yingying Tao, Quan Bai"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-42911-3_64"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Decision Problems for Finite Automata over Infinite Algebraic Structures"
+  image:
+  description: "CIAA (2016)"
+  authors: "Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-40946-7_1"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "How to Build Your Network? A Structural Analysis"
+  image:
+  description: "CoRR abs/1605.03644 (2016)"
+  authors: "Anastasia Moskvina, Jiamou Liu"
+  link:
+    url: "http://arxiv.org/abs/1605.03644"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Network, Popularity and Social Cohesion: A Game-Theoretic Approach"
+  image:
+  description: "CoRR abs/1612.08351 (2016)"
+  authors: "Jiamou Liu, Ziheng Wei"
+  link:
+    url: "http://arxiv.org/abs/1612.08351"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Dynamic algorithms for monotonic interval scheduling problem"
+  image:
+  description: "Theor. Comput. Sci. 562 (2015)"
+  authors: "Alexander Gavruskin, Bakhadyr Khoussainov, Mikhail Kokho, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1016/j.tcs.2014.09.046"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Hierarchies, Ties and Power in Organisational Networks: Model and Analysis"
+  image:
+  description: "ASONAM (2015)"
+  authors: "Jiamou Liu, Anastasia Moskvina"
+  link:
+    url: "https://doi.org/10.1145/2808797.2808874"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Infinite and Bi-infinite Words with Decidable Monadic Theories"
+  image:
+  description: "CSL (2015)"
+  authors: "Dietrich Kuske, Jiamou Liu, Anastasia Moskvina"
+  link:
+    url: "https://doi.org/10.4230/LIPIcs.CSL.2015.472"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A Game of Attribute Decomposition for Software Architecture Design"
+  image:
+  description: "ICTAC (2015)"
+  authors: "Jiamou Liu, Ziheng Wei"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-25150-9_26"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A Game of Attribute Decomposition for Software Architecture Design"
+  image:
+  description: "CoRR abs/1508.02812 (2015)"
+  authors: "Jiamou Liu, Ziheng Wei"
+  link:
+    url: "http://arxiv.org/abs/1508.02812"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Community Detection Based on Graph Dynamical Systems with Asynchronous Runs"
+  image:
+  description: "CANDAR (2014)"
+  authors: "Jiamou Liu, Ziheng Wei"
+  link:
+    url: "https://doi.org/10.1109/CANDAR.2014.20"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Dynamic Interval Scheduling for Multiple Machines"
+  image:
+  description: "ISAAC (2014)"
+  authors: "Alexander Gavruskin, Bakhadyr Khoussainov, Mikhail Kokho, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-13075-0_19"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "From a Local to a Global Perspective of Community Detection in Networks"
+  image:
+  description: "PRICAI (2014)"
+  authors: "Jiamou Liu, Ziheng Wei"
+  link:
+    url: "https://doi.org/10.1007/978-3-319-13560-1_90"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Dynamic Partial Sorting"
+  image:
+  description: "CoRR abs/1402.2712 (2014)"
+  authors: "Jiamou Liu, Kostya Ross"
+  link:
+    url: "http://arxiv.org/abs/1402.2712"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "Dynamic Algorithms for Interval Scheduling on a Single Machine"
+  image:
+  description: "CoRR abs/1412.8005 (2014)"
+  authors: "Alex Gavryushkin, Bakhadyr Khoussainov, Mikhail Kokho, Jiamou Liu"
+  link:
+    url: "http://arxiv.org/abs/1412.8005"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "The isomorphism problem for ω-automatic trees"
+  image:
+  description: "Ann. Pure Appl. Log. 164(1) (2013)"
+  authors: "Dietrich Kuske, Jiamou Liu, Markus Lohrey"
+  link:
+    url: "https://doi.org/10.1016/j.apal.2012.09.001"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Tree-Automatic Well-Founded Trees"
+  image:
+  description: "Log. Methods Comput. Sci. 9(2) (2013)"
+  authors: "Martin Huschenbett, Alexander Kartzow, Jiamou Liu, Markus Lohrey"
+  link:
+    url: "https://doi.org/10.2168/LMCS-9(2:10)2013"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Dynamising Interval Scheduling: The Monotonic Case"
+  image:
+  description: "IWOCA (2013)"
+  authors: "Alexander Gavruskin, Bakhadyr Khoussainov, Mikhail Kokho, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-45278-9_16"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A Polychromatic Ramsey Theory for Ordinals"
+  image:
+  description: "MFCS (2013)"
+  authors: "Martin Huschenbett, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-40313-2_50"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Solving infinite games on trees with back-edges"
+  image:
+  description: "CATS (2012)"
+  authors: "Aniruddh Gandhi, Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "http://crpit.scem.westernsydney.edu.au/abstracts/CRPITV128Gandhi.html"
+    display: "Link"
+  highlight: 0
+  news2:
+
+- title: "Tree-Automatic Well-Founded Trees"
+  image:
+  description: "CiE (2012)"
+  authors: "Alexander Kartzow, Jiamou Liu, Markus Lohrey"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-30870-3_37"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "On State Complexity of Finite Word and Tree Languages"
+  image:
+  description: "Developments in Language Theory (2012)"
+  authors: "Aniruddh Gandhi, Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-31653-1_35"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Finite Automata over Structures - (Extended Abstract)"
+  image:
+  description: "TAMC (2012)"
+  authors: "Aniruddh Gandhi, Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-29952-0_37"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Efficient Algorithms for Games Played on Trees with Back-edges"
+  image:
+  description: "Fundam. Informaticae 111(4) (2011)"
+  authors: "Aniruddh Gandhi, Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.3233/FI-2011-569"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Deciding the isomorphism problem in classes of unary automatic structures"
+  image:
+  description: "Theor. Comput. Sci. 412(18) (2011)"
+  authors: "Jiamou Liu, Mia Minnes"
+  link:
+    url: "https://doi.org/10.1016/j.tcs.2010.12.045"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Extracting Winning Strategies in Update Games"
+  image:
+  description: "CiE (2011)"
+  authors: "Imran Khaliq, Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-21875-0_15"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "The Isomorphism Problem for omega-Automatic Trees"
+  image:
+  description: "CSL (2010)"
+  authors: "Dietrich Kuske, Jiamou Liu, Markus Lohrey"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-15205-4_31"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "The Isomorphism Problem on Classes of Automatic Structures"
+  image:
+  description: "LICS (2010)"
+  authors: "Dietrich Kuske, Jiamou Liu, Markus Lohrey"
+  link:
+    url: "https://doi.org/10.1109/LICS.2010.10"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "The Isomorphism Problem On Classes of Automatic Structures"
+  image:
+  description: "CoRR abs/1001.2086 (2010)"
+  authors: "Dietrich Kuske, Jiamou Liu, Markus Lohrey"
+  link:
+    url: "http://arxiv.org/abs/1001.2086"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "The Isomorphism Problem for omega-Automatic Trees"
+  image:
+  description: "CoRR abs/1004.0610 (2010)"
+  authors: "Dietrich Kuske, Jiamou Liu, Markus Lohrey"
+  link:
+    url: "http://arxiv.org/abs/1004.0610"
+    display: "arXiv"
+  highlight: 0
+  news2:
+
+- title: "On complexity of Ehrenfeucht-Fraïssé games"
+  image:
+  description: "Ann. Pure Appl. Log. 161(3) (2009)"
+  authors: "Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1016/j.apal.2009.07.011"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Unary automatic graphs: an algorithmic perspective"
+  image:
+  description: "Math. Struct. Comput. Sci. 19(1) (2009)"
+  authors: "Bakhadyr Khoussainov, Jiamou Liu, Mia Minnes"
+  link:
+    url: "https://doi.org/10.1017/S0960129508007342"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Analysing Complexity in Classes of Unary Automatic Structures"
+  image:
+  description: "LATA (2009)"
+  authors: "Jiamou Liu, Mia Minnes"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-00982-2_44"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "A Dynamic Algorithm for Reachability Games Played on Trees"
+  image:
+  description: "MFCS (2009)"
+  authors: "Bakhadyr Khoussainov, Jiamou Liu, Imran Khaliq"
+  link:
+    url: "https://doi.org/10.1007/978-3-642-03816-7_41"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Computable Categoricity of Graphs with Finite Components"
+  image:
+  description: "CiE (2008)"
+  authors: "Barbara F. Csima, Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-540-69407-6_15"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "Unary Automatic Graphs: An Algorithmic Perspective"
+  image:
+  description: "TAMC (2008)"
+  authors: "Bakhadyr Khoussainov, Jiamou Liu, Mia Minnes"
+  link:
+    url: "https://doi.org/10.1007/978-3-540-79228-4_47"
+    display: "DOI"
+  highlight: 0
+  news2:
+
+- title: "On Complexity of Ehrenfeucht-Fraïssé Games"
+  image:
+  description: "LFCS (2007)"
+  authors: "Bakhadyr Khoussainov, Jiamou Liu"
+  link:
+    url: "https://doi.org/10.1007/978-3-540-72734-7_21"
+    display: "DOI"
   highlight: 0
   news2:
