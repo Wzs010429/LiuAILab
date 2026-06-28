@@ -1,0 +1,13 @@
+#!/bin/sh
+set -u
+
+python scripts/convert_images_to_webp.py --stage --fail-on-change --quiet
+status=$?
+
+if [ "$status" -eq 2 ]; then
+  echo "Image files were converted to WebP and staged."
+  echo "Commit those changes, then run git push again."
+  exit 1
+fi
+
+exit "$status"

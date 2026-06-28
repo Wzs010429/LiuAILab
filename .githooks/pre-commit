@@ -1,0 +1,4 @@
+#!/bin/sh
+set -u
+
+python scripts/convert_images_to_webp.py --stage --quiet
