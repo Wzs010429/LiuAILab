@@ -4,11 +4,16 @@
   email: zjiaqi0717@gmail.com
   bio: I received my Master's degree in Computer Technology from Chongqing University in 2026, and my Bachelor's degree in Software Engineering from Qingdao University in 2022. I will pursue my PhD under the supervision of Professor Jiamou Liu from 1 September 2026, with a research focus on reinforcement learning and its applications.
 
-
+- name: Yuanbo Tong (童源波)
+  photo: yuanbo.webp
+  duration: 2026.10 -- Present
+  email: yton558@aucklanduni.ac.nz
+  bio: I received my B.Eng. in Computer Science and Technology from Southwest University in 2025 and am currently a postgraduate student at the University of Auckland, working with Prof. Jiamou Liu. My research focuses on LLMs and multimodal generative AI, including image and video editing. 
+  homepage: https://boiyaaa.github.io/
 
 - name: Zhedong Lin (林哲栋)
   photo: zhedong.webp
-  duration: To Start PhD
+  duration: 2026.10 -- Present
   email: zlin629@aucklanduni.ac.nz
   bio: I received my undergraduate degree in Computer Science and Technology from Southwest University in 2025. I am currently working under the guidance of Prof. Jiamou Liu, and my research focuses on LLMs, multimodal generative AI, and applications such as text-to-image and text-to-video generation, image and video editing, and controllable diffusion models. I will soon begin my PhD studies at the University of Auckland, continuing to work under the supervision of Prof. Jiamou Liu.
   homepage: https://zhedong-lin.github.io/
@@ -25,10 +30,6 @@
   duration: 2026.04 -- Present
   email: hli962@aucklanduni.ac.nz
   bio: I received my master's degree in Computer Science from the University of Auckland and my bachelor's degree in Computer Science from Shandong University of Technology. In 2022, I worked as a psychological counselor, which inspired my interest in applying AI technologies to real-world healthcare challenges. My research interests focus on AI for healthcare, particularly leveraging machine learning and deep learning techniques to support mental health and clinical decision-making. I am also interested in the intersection of Web3 and cryptocurrency technologies, exploring how decentralized systems can reshape digital identity and finance. Additionally, I am passionate about the practical applications of LLMs in areas such as medical consultation, intelligent assistants, and knowledge-driven services.
-
-
-
-
 
 - name: Runchen Xu (徐润辰)
   photo: runchen.webp
@@ -49,7 +50,7 @@
   photo: Zhongsheng.webp
   duration: 2025.04 -- Present
   email: zhongsheng.wang@auckland.ac.nz
-  bio: I received my undergraduate degree in CS from the School of Computer Science and Technology, Southwest University in 2023 and master degree in DS at the School of Computer Science, University of Auckland in 2024. My research focuses on multimodal reasoning, AIGC, and trustworthy AI agents. Also I am currently the maintainer of this website.
+  bio: I received my undergraduate degree in Computer Science from the School of Computer Science and Technology, Southwest University in 2023 and master degree in Data Sscience at the School of Computer Science, University of Auckland in 2024. My research focuses on multimodal reasoning, AIGC, and trustworthy AI agents. Also I am currently the maintainer of this website.
   homepage: https://jkwzs.cn
 
 - name: Zhirui Zeng (曾梽芮)
@@ -64,11 +65,6 @@
   email: phan635@aucklanduni.ac.nz
   bio: I got my master's degree in aeronautical engineering from Beihang University in 2018 and got my bachelor's degree from Hebei University of Technology in 2014. I have been an engineer in China Mobile Group Tianjin Company from 2018 to 2021. My main research interests are machine learning, deep learning, and graph-based neural network.
 
-- name: Weidong Li (李伟东)
-  photo: weidong.webp
-  duration: 2020 -- Present
-  email: wli916@aucklanduni.ac.nz
-  bio: Weidong received a degree of Bachelor of Science (Honours) with First Class Honours in Computer Science from the University of Auckland in 2019. She received a Bachelor of History from Capital Normal University in 2013. Her research interests include social network analysis, multi-agent systems and reinforcement learning.
 
 - name: Xiaoxuan Li (李晓璇)
   photo: xiaoxuan.webp
